@@ -17,7 +17,9 @@ myApp.factory("Hows", function(){
 
 // define factories for REST elements
 myApp.factory("CustomerCompany", function($resource){
-  return $resource('http://infyotrs.xarxanet.org/public/api/v1/customer_companies', {}, {headers: { 'Content-Type': 'application/json' }});
+  return $resource('http://infyotrs.xarxanet.org/public/api/v1/customer_companies', {}, {
+    headers: { 'Content-Type': 'text/plain' }
+  });
 });
 myApp.factory("CustomerUser", function($resource){
   return $resource('http://infyotrs.xarxanet.org/public/api/v1/customer_users', {}, {headers: { 'Content-Type': 'application/json' }});
