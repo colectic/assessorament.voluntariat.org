@@ -17,10 +17,10 @@ myApp.factory("Hows", function(){
 
 // define factories for REST elements
 myApp.factory("CustomerCompany", function($resource){
-  return $resource('http://otrs5.xarxanet.org/api/v1/customer_company');
+  return $resource('http://infyotrs.xarxanet.org/public/api/v1/customer_companies');
 });
 myApp.factory("CustomerUser", function($resource){
-  return $resource('http://otrs5.xarxanet.org/api/v1/customer_user');
+  return $resource('http://infyotrs.xarxanet.org/public/api/v1/customer_users');
 });
 
 // setup controller and pass data source
