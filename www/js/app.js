@@ -65,10 +65,10 @@ myApp.controller("FormCtrl", function($scope, Towns, Structures, Hows, CustomerC
     //console.log($scope.customer_company);
     //console.log($scope.data);
 
-    //console.log($scope.customer_company.$get(function(){}));
+    console.log($scope.customer_company.$get(function(){}));
 
     //var name = $scope.data.altres_dades.personal_entitat == 'personal' ? $scope.data.dades_personals.nom+' '+$scope.data.dades_personals.cognom : $scope.data.altres_dades.nom_entitat;
-
+    /*
     $scope.customer_company.customer_id = 'a';
     $scope.customer_company.name = 'a';
     $scope.customer_company.CIF = 'a';
@@ -81,5 +81,6 @@ myApp.controller("FormCtrl", function($scope, Towns, Structures, Hows, CustomerC
     $scope.customer_company.valid_id = 1;
 
     $scope.customer_company.$save(function(){});
+    */
   }
 });
