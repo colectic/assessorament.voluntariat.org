@@ -17,10 +17,10 @@ myApp.factory("Hows", function(){
 
 // define factories for REST elements
 myApp.factory("CustomerCompany", function($resource){
-  return $resource('http://infyotrs.xarxanet.org/public/api/v1/customer_companies');
+  return $resource('http://infyotrs.xarxanet.org/public/api/v1/customer_companies', {}, {headers: { 'Content-Type': 'application/json' }});
 });
 myApp.factory("CustomerUser", function($resource){
-  return $resource('http://infyotrs.xarxanet.org/public/api/v1/customer_users');
+  return $resource('http://infyotrs.xarxanet.org/public/api/v1/customer_users', {}, {headers: { 'Content-Type': 'application/json' }});
 });
 
 // setup controller and pass data source
@@ -60,11 +60,23 @@ myApp.controller("FormCtrl", function($scope, Towns, Structures, Hows, CustomerC
   }
 
   $scope.send = function() {
-    console.log($scope.customer_company);
-    console.log($scope.data);
+    //console.log($scope.customer_company);
+    //console.log($scope.data);
 
-    var name = $scope.data.altres_dades.personal_entitat == 'personal' ? $scope.data.dades_personals.nom+' '+$scope.data.dades_personals.cognom : $scope.data.altres_dades.nom_entitat;
-    $scope.customer_company.name = name;
+    //console.log($scope.customer_company.$get(function(){}));
+
+    //var name = $scope.data.altres_dades.personal_entitat == 'personal' ? $scope.data.dades_personals.nom+' '+$scope.data.dades_personals.cognom : $scope.data.altres_dades.nom_entitat;
+
+    $scope.customer_company.customer_id = 'a';
+    $scope.customer_company.name = 'a';
+    $scope.customer_company.CIF = 'a';
+    $scope.customer_company.city = 'a';
+    $scope.customer_company.comarca = 'a';
+    $scope.customer_company.provincia = 'a';
+    $scope.customer_company.ambit_actuacio = 'a';
+    $scope.customer_company.forma_juridica = 'a';
+    $scope.customer_company.via_coneixement = 'a';
+    $scope.customer_company.valid_id = 1;
 
     $scope.customer_company.$save(function(){});
   }

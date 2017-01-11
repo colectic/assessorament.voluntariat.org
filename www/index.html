@@ -61,7 +61,7 @@
 
       <div id="tipus_acompanyament" ng-show="step_id=='tipus_acompanyament'">
         <h1>Pas {{step}}: Tipus d'acompanyament</h1>
-        <form ng-submit="advance()">
+        <form ng-submit="send()">
           <div class="form-check">
             <label class="form-check-label">
               <input class="form-check-input" ng-model="data.tipus_acompanyament" type="radio" value="option1" ng-required="!data.tipus_acompanyament" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
