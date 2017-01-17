@@ -23,12 +23,6 @@ myApp.factory("Hows", function(){
   var hows = ["xarxanet.org", "voluntariat.org", "butlletí A l'Abast", "presentació en el territori", "punt de voluntariat", "administració municipal", "Generalitat de Catalunya", "una altra entitat", "altres"];
   return hows;
 });
-myApp.factory("Feeds", function($http){
-  var url = 'http://stackoverflow.com/feeds/tag?tagnames=angularjs&sort=newest';
-  var feeds = $http.get("https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20xml%20where%20url%20%3D%20'https%3A%2F%2Fnews.ycombinator.com%2Frss'&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys&callback=callback");
-  console.log('https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20xml%20where%20url%20%3D%20\'' + encodeURIComponent(url) + '\'&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys&callback=JSON_CALLBACK');
-  return feeds;
-});
 
 // define factories for REST elements
 myApp.factory("CustomerCompany", function($resource){
@@ -42,8 +36,18 @@ myApp.factory("Ticket", function($resource){
     return $resource('http://otrs.xarxanet.org/Webservice/Ticket?UserLogin=xxxx&Password=xxxx');
 });
 
+myApp.controller("RssCtrl", function($scope, $http){
+  var rss = "http://xarxanet.org/rss_recursos_simple";
+  var url ="https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20xml%20where%20url%20%3D%20'"+encodeURIComponent(rss)+"'&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys";
+  $scope.feed = null;
+  $http.get(url).then(function(response) {
+    $scope.feeds = response.data.query.results.rss.channel.item;
+    console.log($scope.feeds);
+  });
+});
+
 // setup controller and pass data source
-myApp.controller("FormCtrl", function($scope, Towns, Structures, Hows, Areas, CustomerCompany, CustomerUser, Ticket, Feeds){
+myApp.controller("FormCtrl", function($scope, Towns, Structures, Hows, Areas, CustomerCompany, CustomerUser, Ticket){
 
   $scope.customer_company = new CustomerCompany();
   $scope.customer_user = new CustomerUser();
@@ -57,16 +61,13 @@ myApp.controller("FormCtrl", function($scope, Towns, Structures, Hows, Areas, Cu
                   {puntual:'consulta', acompanyament: 'tipus_acompanyament'},
                   {puntual:'dades_personals', acompanyament: 'consulta'},
                   {puntual:'altres_dades', acompanyament: 'dades_personals'},
-                  {puntual:'conegut', acompanyament: 'altres_dades'},
-                  {puntual:'compromis', acompanyament: 'conegut'},
+                  {puntual:'final', acompanyament: 'altres_dades'},
+                  {puntual:'compromis', acompanyament: 'final'},
                   {puntual:null, acompanyament: 'compromis'}];
   $scope.towns = Towns;
   $scope.structures = Structures;
   $scope.hows = Hows;
   $scope.areas = Areas;
-  console.log(Feeds);
-  $scope.feeds = Feeds;
-  $scope.status = '';
 
   $scope.setType = function(type) {
 	  $scope.data.tipus = type;
@@ -81,6 +82,11 @@ myApp.controller("FormCtrl", function($scope, Towns, Structures, Hows, Areas, Cu
   $scope.goBack = function() {
 	  $scope.step_id = $scope.steps[$scope.step-1][$scope.data.tipus];
 	  $scope.step--;
+  }
+
+  $scope.restart = function() {
+	  $scope.step_id = 'tipus';
+	  $scope.data = {};
   }
 
   $scope.send = function() {
@@ -159,10 +165,7 @@ myApp.controller("FormCtrl", function($scope, Towns, Structures, Hows, Areas, Cu
     };
     $scope.ticket.$save();
     */
-
-    $scope.status = 'send';
     $scope.step = 0;
-    $scope.step_id = 'tipus';
-    $scope.data = {};
+    $scope.step_id = 'enviat';
   }
 });

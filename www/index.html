@@ -19,74 +19,73 @@
 -->
 <html>
   <head>
-      <!--
-      Customize this policy to fit your own app's needs. For more guidance, see:
-          https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
-      Some notes:
-          * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
-          * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-          * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-              * Enable inline JS: add 'unsafe-inline' to default-src
-      -->
-      <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:; connect-src *; script-src *;">
-      <meta name="format-detection" content="telephone=no">
-      <meta name="msapplication-tap-highlight" content="no">
-      <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-      <meta charset="UTF-8">
+    <!--
+    Customize this policy to fit your own app's needs. For more guidance, see:
+        https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+    Some notes:
+        * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+        * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+        * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+            * Enable inline JS: add 'unsafe-inline' to default-src
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:; connect-src *; script-src *;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <meta charset="UTF-8">
 
-      <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
-      <script type="text/javascript" src="bower_components/angular-animate/angular-animate.min.js"></script>
-      <script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
-      <script type="text/javascript" src="bower_components/angular-resource/angular-resource.min.js"></script>
-      <script type="text/javascript" src="bower_components/moment/moment.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-animate/angular-animate.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-resource/angular-resource.min.js"></script>
+    <script type="text/javascript" src="bower_components/moment/moment.js"></script>
 
-      <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
 
-      <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 
-      <title>Hello World</title>
+    <title>Formularis d'assessorament i acompanyament</title>
   </head>
   <body ng-app="assessorament">
     <nav class="navbar-1" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="http://web.gencat.cat/"><img src="img/logo-generalitat.gif" alt="Logo voluntariat.org"/></a>
+                <a class="navbar-brand" href="http://web.gencat.cat/" target="_blank"><img src="img/logo-generalitat.gif" alt="Logo voluntariat.org"/></a>
             </div>
         </div>
     </nav>
     <nav class="navbar-2" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="http://www.voluntariat.org/"><img src="img/logo.png" alt="Logo voluntariat.org"/></a>
+                <a class="navbar-brand" href="http://www.voluntariat.org/" target="_blank"><img src="img/logo.png" alt="Logo voluntariat.org"/></a>
             </div>
         </div>
     </nav>
-
-
 
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-sm-12">
           <div ng-controller="FormCtrl">
-            <div class="alert alert-success" role="alert" ng-show="status=='send'">El formulari s'ha enviat correctament</div>
             <!-- INICI -->
             <div id="tipus" ng-show="step_id=='tipus'">
-              <h1 class="page-header"> Formulari d'assessorament </h1>
-              <p>Seguint uns senzills passos us proporcionarem un assessorament adequat a la vostra entitat</p>
-              <p><b>Seleccioneu si requeriu un acompanyament o un assessorament</b></p>
+              <h1 class="page-header">Formularis d'assessorament i acompanyament</h1>
+              <p>Si vols aconseguir més impacte social, ASSESSORA'T! La Direcció General d'Acció Cívica i Comunitària posa a la teva disposició un conjunt de serveis d'assessorament i acompanyament gratuïts. Pots fer la teva sol·licitud a través del següent formulari:</p>
               <div class="row">
                 <div class="col-md-6 col-sm-12">
                   <p>
                     <button type="button" class="btn btn-primary btn-block" ng-click="setType('puntual')">
-                      <h2>Assessorament puntual</h2>
+                      <h2>Assessorament</h2>
                     </button>
                   </p>
-                  <ul>
-                    <li>Coneixes quins són els serveis</li>
-                    <li>Quines són les prestacions que et donen?</li>
-                    <li>Quines són les temàtiques sobre les quals ens pots consultar?</li>
-                    <li>Quin és el temps de  resposta?</li>
-                  </ul>
+                  <a href="http://www.voluntariat.org/Suport-i-serveis/Serveis-dassessorament-a-les-entitats/serveis-assessorament" class="list-group-item" target="_blank">
+                    <h4 class="text-center">Consulta en quines temàtiques t'assessorem</h4>
+                    <ul>
+                      <li>Coneixes quins són els serveis</li>
+                      <li>Quines són les prestacions que et donen?</li>
+                      <li>Quines són les temàtiques sobre les quals ens pots consultar?</li>
+                      <li>Quin és el temps de  resposta?</li>
+                    </ul>
+                  </a>
                 </div>
                 <div class="col-md-6 col-sm-12">
                   <p>
@@ -94,13 +93,16 @@
                       <h2>Acompanyament</h2>
                     </button>
                   </p>
-                  <ul>
-                    <li>En què consisteix l’acompanyament?</li>
-                    <li>Coneixes quins són els serveis?</li>
-                    <li>Quines són les prestacions que et donen?</li>
-                    <li>Quines són les temàtiques sobre les quals ens pots consultar?</li>
-                    <li>Quines són les condicions d’ús d’aquest servei?</li>
-                  </ul>
+                  <a href="http://www.voluntariat.org/Suport-i-serveis/Serveis-dassessorament-a-les-entitats/servei-acompanyament-integral" class="list-group-item" target="_blank">
+                    <h4 class="text-center">Consulta en quines temàtiques t'acompanyem</h4>
+                    <ul>
+                      <li>En què consisteix l’acompanyament?</li>
+                      <li>Coneixes quins són els serveis?</li>
+                      <li>Quines són les prestacions que et donen?</li>
+                      <li>Quines són les temàtiques sobre les quals ens pots consultar?</li>
+                      <li>Quines són les condicions d’ús d’aquest servei?</li>
+                    </ul>
+                  </a>
                 </div>
               </div>
             </div>
@@ -181,7 +183,7 @@
               <h1 class="page-header">Pas {{step}}: Consulta</h1>
               <form ng-submit="advance()">
                 <div class="form-group">
-                  <label for="consultaTextarea">Explica'ns què ens vols consultar</label>
+                  <label for="consultaTextarea">En què vols que t'ajudem?</label>
                   <textarea class="form-control" id="consultaTextarea" rows="7" ng-model="data.consulta" required></textarea>
                 </div>
                 <p>&nbsp;</p>
@@ -238,7 +240,7 @@
                       <input type="text" class="form-control" id="dni" ng-model="data.altres_dades.dni_nif" ng-required="data.altres_dades.personal_entitat=='personal'">
                     </div>
                     <div class="form-group form-inline col-xs-6">
-                        <label for="email">E-mail</label>
+                        <label for="email">Correu electrònic</label>
                         <input type="email" class="form-control" id="email" ng-model="data.altres_dades.email" ng-required="data.altres_dades.personal_entitat=='personal'">
                     </div>
                   </div>
@@ -272,11 +274,11 @@
                   </div>
                   <div class="row">
                     <div class="form-group form-inline col-xs-6">
-                        <label for="email">E-mail de l'entitat</label>
+                        <label for="email">Correu electrònic</label>
                         <input type="email" class="form-control" id="email" ng-model="data.altres_dades.email" ng-required="data.altres_dades.personal_entitat=='entitat'">
                     </div>
                     <div class="form-group form-inline col-xs-6">
-                        <label for="tel">Telèfon de l'entitat</label>
+                        <label for="tel">Telèfon</label>
                         <input type="tel" class="form-control" id="tel" ng-model="data.altres_dades.tel" ng-required="data.altres_dades.personal_entitat=='entitat'">
                     </div>
                   </div>
@@ -314,30 +316,26 @@
               </form>
             </div>
 
-            <!-- COM ENS HA CONEGUT -->
-            <div id="conegut" ng-show="step_id=='conegut'">
-              <h1 class="page-header">Pas {{step}}: Com ens has conegut?</h1>
+            <!-- FINAL -->
+            <div id="final" ng-show="step_id=='final'">
+              <h1 class="page-header">Pas {{step}}: Final</h1>
               <p> </p>
-              <form ng-submit="advance()">
-                <label for="how">Explica'ns com ens has conegut, així podrem millorar</label>
+              <form ng-submit="send()">
+                <legend>Com ens has conegut?</legend>
+                <label for="how">Ens vols ajudar a millorar? Explica'ns com ens has conegut</label>
                 <select id="how" ng-model="data.conegut" class="form-control" required>
                   <option ng-repeat="how in hows" value="how">{{how}}</option>
                 </select>
                 <p>&nbsp;</p>
-                <button type="button" class="btn btn-primary" ng-click="goBack()"><< Endarrere</button>
-                <button type="submit" class="btn btn-success" >Endavant >></button>
-              </form>
-            </div>
-
-            <!-- COMPRONIS -->
-            <div id="compromis" ng-show="step_id=='compromis'">
-              <h1 class="page-header">Pas {{step}}: Compromís</h1>
-              <form ng-submit="send()">
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox" ng-model="data.compromis" value="" required>
-                    Estic disposat a acceptar el compromís d'acompanyament
-                  </label>
+                <div ng-show="data.tipus=='acompanyament'">
+                  <legend>Compromís</legend>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox" ng-model="data.compromis" value="" ng-required="data.tipus=='acompanyament'">
+                      Estic disposat a acceptar el compromís d'acompanyament
+                    </label>
+                  </div>
+                  <p>&nbsp;</p>
                 </div>
                 <legend>Avís legal</legend>
                 <div class="checkbox">
@@ -347,14 +345,40 @@
                   </label>
                 </div>
                 <p>&nbsp;</p>
-                <button type="submit" class="btn btn-success" >Finalitza</button>
+                <button type="button" class="btn btn-primary" ng-click="goBack()"><< Endarrere</button>
+                <button type="submit" class="btn btn-success">Finalitza</button>
               </form>
             </div>
+
+            <!-- ENVIAT -->
+            <div id="compromis" ng-show="step_id=='enviat'">
+              <h1 class="page-header">Formulari registrat</h1>
+              <div class="alert alert-success" role="alert">El formulari s'ha registrat correctament. Moltes gràcies per contactar amb nosaltres, en 72 hores com a màxim ens posarem en contacte amb tu.</div>
+              <p>&nbsp;</p>
+              <button type="button" class="btn btn-warning" ng-click="restart()">Tornar a l'inici</button>
+            </div>
+
           </div>
         </div>
         <div class="col-md-4 col-sm-12">
-          <h2 class="page-header">Altres recursos</h2>
-          <a href="http://xarxanet.org"><img src="img/banner.png" alt="Banner Xarxanet.org" /></a>
+          <div ng-controller="RssCtrl">
+            <h1 class="page-header"><a href="http://xarxanet.org" target="_blank"><img src="img/logo-xarxanet.svg" /></a></h1>
+            <!--<a href="http://xarxanet.org"><img src="img/banner.png" alt="Banner Xarxanet.org" /></a>-->
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Recursos de Xarxanet.org</h3>
+              </div>
+              <div class="panel-body">
+                <div class="list-group">
+                  <a ng-repeat="feed in feeds" ng-href="{{feed.link}}" class="list-group-item" target="_blank">
+                    <h4 class="list-group-item-heading">{{feed.title}}</h4>
+                    <p>{{feed.description}}</p>
+                    <p class="list-group-item-text small">{{feed.author}} - {{feed.pubDate}}</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
