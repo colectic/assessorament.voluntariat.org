@@ -1,0 +1,3794 @@
+{
+	"Abella de la Conca": {
+		"comarca": "Pallars Jussà",
+		"provincia": "Lleida"
+	},
+	"Abrera": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Àger": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Agramunt": {
+		"comarca": "Urgell",
+		"provincia": "Lleida"
+	},
+	"Aguilar de Segarra": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Agullana": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Aiguafreda": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Aiguamúrcia": {
+		"comarca": "Alt Camp",
+		"provincia": "Tarragona"
+	},
+	"Aiguaviva": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Aitona": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Alamús, els": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Alàs i Cerc": {
+		"comarca": "Alt Urgell",
+		"provincia": "Lleida"
+	},
+	"Albagés, l'": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Albanyà": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Albatàrrec": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Albesa": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Albi, l'": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Albinyana": {
+		"comarca": "Baix Penedès",
+		"provincia": "Tarragona"
+	},
+	"Albiol, l'": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Albons": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Alcanar": {
+		"comarca": "Montsià",
+		"provincia": "Tarragona"
+	},
+	"Alcanó": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Alcarràs": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Alcoletge": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Alcover": {
+		"comarca": "Alt Camp",
+		"provincia": "Tarragona"
+	},
+	"Aldea, l'": {
+		"comarca": "Baix Ebre",
+		"provincia": "Tarragona"
+	},
+	"Aldover": {
+		"comarca": "Baix Ebre",
+		"provincia": "Tarragona"
+	},
+	"Aleixar, l'": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Alella": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Alfara de Carles": {
+		"comarca": "Baix Ebre",
+		"provincia": "Tarragona"
+	},
+	"Alfarràs": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Alfés": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Alforja": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Algerri": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Alguaire": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Alins": {
+		"comarca": "Pallars Sobirà",
+		"provincia": "Lleida"
+	},
+	"Alió": {
+		"comarca": "Alt Camp",
+		"provincia": "Tarragona"
+	},
+	"Almacelles": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Almatret": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Almenar": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Almoster": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Alòs de Balaguer": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Alp": {
+		"comarca": "Cerdanya",
+		"provincia": "Girona"
+	},
+	"Alpens": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Alpicat": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Alt Àneu": {
+		"comarca": "Pallars Sobirà",
+		"provincia": "Lleida"
+	},
+	"Altafulla": {
+		"comarca": "Tarragonès",
+		"provincia": "Tarragona"
+	},
+	"Amer": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Ametlla de Mar, l'": {
+		"comarca": "Baix Ebre",
+		"provincia": "Tarragona"
+	},
+	"Ametlla del Vallès, l'": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Ampolla, l'": {
+		"comarca": "Baix Ebre",
+		"provincia": "Tarragona"
+	},
+	"Amposta": {
+		"comarca": "Montsià",
+		"provincia": "Tarragona"
+	},
+	"Anglès": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Anglesola": {
+		"comarca": "Urgell",
+		"provincia": "Lleida"
+	},
+	"Arbeca": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Arboç, l'": {
+		"comarca": "Baix Penedès",
+		"provincia": "Tarragona"
+	},
+	"Arbolí": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Arbúcies": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Arenys de Mar": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Arenys de Munt": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Argelaguer": {
+		"comarca": "Garrotxa",
+		"provincia": "Girona"
+	},
+	"Argençola": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Argentera, l'": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Argentona": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Armentera, l'": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Arnes": {
+		"comarca": "Terra Alta",
+		"provincia": "Tarragona"
+	},
+	"Arres": {
+		"comarca": "Aran",
+		"provincia": "Lleida"
+	},
+	"Arsèguel": {
+		"comarca": "Alt Urgell",
+		"provincia": "Lleida"
+	},
+	"Artés": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Artesa de Lleida": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Artesa de Segre": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Ascó": {
+		"comarca": "Ribera d'Ebre",
+		"provincia": "Tarragona"
+	},
+	"Aspa": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Avellanes i Santa Linya, les": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Avià": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Avinyó": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Avinyonet de Puigventós": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Avinyonet del Penedès": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Badalona": {
+		"comarca": "Barcelonès",
+		"provincia": "Barcelona"
+	},
+	"Badia del Vallès": {
+		"comarca": "Vallès Occidental",
+		"provincia": "Barcelona"
+	},
+	"Bagà": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Baix Pallars": {
+		"comarca": "Pallars Sobirà",
+		"provincia": "Lleida"
+	},
+	"Balaguer": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Balenyà": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Balsareny": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Banyeres del Penedès": {
+		"comarca": "Baix Penedès",
+		"provincia": "Tarragona"
+	},
+	"Banyoles": {
+		"comarca": "Pla de l'Estany",
+		"provincia": "Girona"
+	},
+	"Barbens": {
+		"comarca": "Pla d'Urgell",
+		"provincia": "Lleida"
+	},
+	"Barberà de la Conca": {
+		"comarca": "Conca de Barberà",
+		"provincia": "Tarragona"
+	},
+	"Barberà del Vallès": {
+		"comarca": "Vallès Occidental",
+		"provincia": "Barcelona"
+	},
+	"Barcelona": {
+		"comarca": "Barcelonès",
+		"provincia": "Barcelona"
+	},
+	"Baronia de Rialb, la": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Bàscara": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Bassella": {
+		"comarca": "Alt Urgell",
+		"provincia": "Lleida"
+	},
+	"Batea": {
+		"comarca": "Terra Alta",
+		"provincia": "Tarragona"
+	},
+	"Bausen": {
+		"comarca": "Aran",
+		"provincia": "Lleida"
+	},
+	"Begues": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Begur": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Belianes": {
+		"comarca": "Urgell",
+		"provincia": "Lleida"
+	},
+	"Bell-lloc d'Urgell": {
+		"comarca": "Pla d'Urgell",
+		"provincia": "Lleida"
+	},
+	"Bellaguarda": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Bellcaire d'Empordà": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Bellcaire d'Urgell": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Bellmunt d'Urgell": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Bellmunt del Priorat": {
+		"comarca": "Priorat",
+		"provincia": "Tarragona"
+	},
+	"Bellprat": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Bellpuig": {
+		"comarca": "Urgell",
+		"provincia": "Lleida"
+	},
+	"Bellvei": {
+		"comarca": "Baix Penedès",
+		"provincia": "Tarragona"
+	},
+	"Bellver de Cerdanya": {
+		"comarca": "Cerdanya",
+		"provincia": "Lleida"
+	},
+	"Bellvís": {
+		"comarca": "Pla d'Urgell",
+		"provincia": "Lleida"
+	},
+	"Benavent de Segrià": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Benifallet": {
+		"comarca": "Baix Ebre",
+		"provincia": "Tarragona"
+	},
+	"Benissanet": {
+		"comarca": "Ribera d'Ebre",
+		"provincia": "Tarragona"
+	},
+	"Berga": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Besalú": {
+		"comarca": "Garrotxa",
+		"provincia": "Girona"
+	},
+	"Bescanó": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Beuda": {
+		"comarca": "Garrotxa",
+		"provincia": "Girona"
+	},
+	"Bigues i Riells": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Biosca": {
+		"comarca": "Segarra",
+		"provincia": "Lleida"
+	},
+	"Bisbal d'Empordà, la": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Bisbal de Falset, la": {
+		"comarca": "Priorat",
+		"provincia": "Tarragona"
+	},
+	"Bisbal del Penedès, la": {
+		"comarca": "Baix Penedès",
+		"provincia": "Tarragona"
+	},
+	"Biure": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Blancafort": {
+		"comarca": "Conca de Barberà",
+		"provincia": "Tarragona"
+	},
+	"Blanes": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Boadella i les Escaules": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Bolvir": {
+		"comarca": "Cerdanya",
+		"provincia": "Girona"
+	},
+	"Bonastre": {
+		"comarca": "Baix Penedès",
+		"provincia": "Tarragona"
+	},
+	"Bòrdes, Es": {
+		"comarca": "Aran",
+		"provincia": "Lleida"
+	},
+	"Bordils": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Borges Blanques, les": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Borges del Camp, les": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Borrassà": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Borredà": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Bossòst": {
+		"comarca": "Aran",
+		"provincia": "Lleida"
+	},
+	"Bot": {
+		"comarca": "Terra Alta",
+		"provincia": "Tarragona"
+	},
+	"Botarell": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Bovera": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Bràfim": {
+		"comarca": "Alt Camp",
+		"provincia": "Tarragona"
+	},
+	"Breda": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Bruc, el": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Brull, el": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Brunyola": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Cabacés": {
+		"comarca": "Priorat",
+		"provincia": "Tarragona"
+	},
+	"Cabanabona": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Cabanelles": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Cabanes": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Cabanyes, les": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Cabó": {
+		"comarca": "Alt Urgell",
+		"provincia": "Lleida"
+	},
+	"Cabra del Camp": {
+		"comarca": "Alt Camp",
+		"provincia": "Tarragona"
+	},
+	"Cabrera d'Anoia": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Cabrera de Mar": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Cabrils": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Cadaqués": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Calaf": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Calafell": {
+		"comarca": "Baix Penedès",
+		"provincia": "Tarragona"
+	},
+	"Calders": {
+		"comarca": "Moianès",
+		"provincia": "Barcelona"
+	},
+	"Caldes d'Estrac": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Caldes de Malavella": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Caldes de Montbui": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Calella": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Calldetenes": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Callús": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Calonge": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Calonge de Segarra": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Camarasa": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Camarles": {
+		"comarca": "Baix Ebre",
+		"provincia": "Tarragona"
+	},
+	"Cambrils": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Camós": {
+		"comarca": "Pla de l'Estany",
+		"provincia": "Girona"
+	},
+	"Campdevànol": {
+		"comarca": "Ripollès",
+		"provincia": "Girona"
+	},
+	"Campelles": {
+		"comarca": "Ripollès",
+		"provincia": "Girona"
+	},
+	"Campins": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Campllong": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Camprodon": {
+		"comarca": "Ripollès",
+		"provincia": "Girona"
+	},
+	"Canejan": {
+		"comarca": "Aran",
+		"provincia": "Lleida"
+	},
+	"Canet d'Adri": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Canet de Mar": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Canonja, la": {
+		"comarca": "Tarragonès",
+		"provincia": "Tarragona"
+	},
+	"Canovelles": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Cànoves i Samalús": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Cantallops": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Canyelles": {
+		"comarca": "Garraf",
+		"provincia": "Barcelona"
+	},
+	"Capafonts": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Capçanes": {
+		"comarca": "Priorat",
+		"provincia": "Tarragona"
+	},
+	"Capellades": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Capmany": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Capolat": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Cardedeu": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Cardona": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Carme": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Caseres": {
+		"comarca": "Terra Alta",
+		"provincia": "Tarragona"
+	},
+	"Cassà de la Selva": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Casserres": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Castell de l'Areny": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Castell de Mur": {
+		"comarca": "Pallars Jussà",
+		"provincia": "Lleida"
+	},
+	"Castell-Platja d'Aro": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Castellar de la Ribera": {
+		"comarca": "Solsonès",
+		"provincia": "Lleida"
+	},
+	"Castellar de n'Hug": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Castellar del Riu": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Castellar del Vallès": {
+		"comarca": "Vallès Occidental",
+		"provincia": "Barcelona"
+	},
+	"Castellbell i el Vilar": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Castellbisbal": {
+		"comarca": "Vallès Occidental",
+		"provincia": "Barcelona"
+	},
+	"Castellcir": {
+		"comarca": "Moianès",
+		"provincia": "Barcelona"
+	},
+	"Castelldans": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Castelldefels": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Castellet i la Gornal": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Castellfollit de la Roca": {
+		"comarca": "Garrotxa",
+		"provincia": "Girona"
+	},
+	"Castellfollit de Riubregós": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Castellfollit del Boix": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Castellgalí": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Castellnou de Bages": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Castellnou de Seana": {
+		"comarca": "Pla d'Urgell",
+		"provincia": "Lleida"
+	},
+	"Castelló d'Empúries": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Castelló de Farfanya": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Castellolí": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Castellserà": {
+		"comarca": "Urgell",
+		"provincia": "Lleida"
+	},
+	"Castellterçol": {
+		"comarca": "Moianès",
+		"provincia": "Barcelona"
+	},
+	"Castellvell del Camp": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Castellví de la Marca": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Castellví de Rosanes": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Catllar, el": {
+		"comarca": "Tarragonès",
+		"provincia": "Tarragona"
+	},
+	"Cava": {
+		"comarca": "Alt Urgell",
+		"provincia": "Lleida"
+	},
+	"Cellera de Ter, la": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Celrà": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Centelles": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Cercs": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Cerdanyola del Vallès": {
+		"comarca": "Vallès Occidental",
+		"provincia": "Barcelona"
+	},
+	"Cervelló": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Cervera": {
+		"comarca": "Segarra",
+		"provincia": "Lleida"
+	},
+	"Cervià de les Garrigues": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Cervià de Ter": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Cistella": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Ciutadilla": {
+		"comarca": "Urgell",
+		"provincia": "Lleida"
+	},
+	"Clariana de Cardener": {
+		"comarca": "Solsonès",
+		"provincia": "Lleida"
+	},
+	"Cogul, el": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Colera": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Coll de Nargó": {
+		"comarca": "Alt Urgell",
+		"provincia": "Lleida"
+	},
+	"Collbató": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Colldejou": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Collsuspina": {
+		"comarca": "Moianès",
+		"provincia": "Barcelona"
+	},
+	"Colomers": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Coma i la Pedra, la": {
+		"comarca": "Solsonès",
+		"provincia": "Lleida"
+	},
+	"Conca de Dalt": {
+		"comarca": "Pallars Jussà",
+		"provincia": "Lleida"
+	},
+	"Conesa": {
+		"comarca": "Conca de Barberà",
+		"provincia": "Tarragona"
+	},
+	"Constantí": {
+		"comarca": "Tarragonès",
+		"provincia": "Tarragona"
+	},
+	"Copons": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Corbera d'Ebre": {
+		"comarca": "Terra Alta",
+		"provincia": "Tarragona"
+	},
+	"Corbera de Llobregat": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Corbins": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Corçà": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Cornellà de Llobregat": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Cornellà del Terri": {
+		"comarca": "Pla de l'Estany",
+		"provincia": "Girona"
+	},
+	"Cornudella de Montsant": {
+		"comarca": "Priorat",
+		"provincia": "Tarragona"
+	},
+	"Creixell": {
+		"comarca": "Tarragonès",
+		"provincia": "Tarragona"
+	},
+	"Crespià": {
+		"comarca": "Pla de l'Estany",
+		"provincia": "Girona"
+	},
+	"Cruïlles, Monells i Sant Sadurní de l'Heura": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Cubelles": {
+		"comarca": "Garraf",
+		"provincia": "Barcelona"
+	},
+	"Cubells": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Cunit": {
+		"comarca": "Baix Penedès",
+		"provincia": "Tarragona"
+	},
+	"Darnius": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Das": {
+		"comarca": "Cerdanya",
+		"provincia": "Girona"
+	},
+	"Deltebre": {
+		"comarca": "Baix Ebre",
+		"provincia": "Tarragona"
+	},
+	"Dosrius": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Duesaigües": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Escala, l'": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Esparreguera": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Espinelves": {
+		"comarca": "Osona",
+		"provincia": "Girona"
+	},
+	"Espluga Calba, l'": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Espluga de Francolí, l'": {
+		"comarca": "Conca de Barberà",
+		"provincia": "Tarragona"
+	},
+	"Esplugues de Llobregat": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Espolla": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Esponellà": {
+		"comarca": "Pla de l'Estany",
+		"provincia": "Girona"
+	},
+	"Espot": {
+		"comarca": "Pallars Sobirà",
+		"provincia": "Lleida"
+	},
+	"Espunyola, l'": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Esquirol, l'": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Estamariu": {
+		"comarca": "Alt Urgell",
+		"provincia": "Lleida"
+	},
+	"Estany, l'": {
+		"comarca": "Moianès",
+		"provincia": "Barcelona"
+	},
+	"Estaràs": {
+		"comarca": "Segarra",
+		"provincia": "Lleida"
+	},
+	"Esterri d'Àneu": {
+		"comarca": "Pallars Sobirà",
+		"provincia": "Lleida"
+	},
+	"Esterri de Cardós": {
+		"comarca": "Pallars Sobirà",
+		"provincia": "Lleida"
+	},
+	"Falset": {
+		"comarca": "Priorat",
+		"provincia": "Tarragona"
+	},
+	"Far d'Empordà, el": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Farrera": {
+		"comarca": "Pallars Sobirà",
+		"provincia": "Lleida"
+	},
+	"Fatarella, la": {
+		"comarca": "Terra Alta",
+		"provincia": "Tarragona"
+	},
+	"Febró, la": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Figaró-Montmany": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Fígols": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Fígols i Alinyà": {
+		"comarca": "Alt Urgell",
+		"provincia": "Lleida"
+	},
+	"Figuera, la": {
+		"comarca": "Priorat",
+		"provincia": "Tarragona"
+	},
+	"Figueres": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Figuerola del Camp": {
+		"comarca": "Alt Camp",
+		"provincia": "Tarragona"
+	},
+	"Flaçà": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Flix": {
+		"comarca": "Ribera d'Ebre",
+		"provincia": "Tarragona"
+	},
+	"Floresta, la": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Fogars de la Selva": {
+		"comarca": "Selva",
+		"provincia": "Barcelona"
+	},
+	"Fogars de Montclús": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Foixà": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Folgueroles": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Fondarella": {
+		"comarca": "Pla d'Urgell",
+		"provincia": "Lleida"
+	},
+	"Fonollosa": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Font-rubí": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Fontanals de Cerdanya": {
+		"comarca": "Cerdanya",
+		"provincia": "Girona"
+	},
+	"Fontanilles": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Fontcoberta": {
+		"comarca": "Pla de l'Estany",
+		"provincia": "Girona"
+	},
+	"Foradada": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Forallac": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Forès": {
+		"comarca": "Conca de Barberà",
+		"provincia": "Tarragona"
+	},
+	"Fornells de la Selva": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Fortià": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Franqueses del Vallès, les": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Freginals": {
+		"comarca": "Montsià",
+		"provincia": "Tarragona"
+	},
+	"Fuliola, la": {
+		"comarca": "Urgell",
+		"provincia": "Lleida"
+	},
+	"Fulleda": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Gaià": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Galera, la": {
+		"comarca": "Montsià",
+		"provincia": "Tarragona"
+	},
+	"Gallifa": {
+		"comarca": "Vallès Occidental",
+		"provincia": "Barcelona"
+	},
+	"Gandesa": {
+		"comarca": "Terra Alta",
+		"provincia": "Tarragona"
+	},
+	"Garcia": {
+		"comarca": "Ribera d'Ebre",
+		"provincia": "Tarragona"
+	},
+	"Garidells, els": {
+		"comarca": "Alt Camp",
+		"provincia": "Tarragona"
+	},
+	"Garriga, la": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Garrigàs": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Garrigoles": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Garriguella": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Gavà": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Gavet de la Conca": {
+		"comarca": "Pallars Jussà",
+		"provincia": "Lleida"
+	},
+	"Gelida": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Ger": {
+		"comarca": "Cerdanya",
+		"provincia": "Girona"
+	},
+	"Gimenells i el Pla de la Font": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Ginestar": {
+		"comarca": "Ribera d'Ebre",
+		"provincia": "Tarragona"
+	},
+	"Girona": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Gironella": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Gisclareny": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Godall": {
+		"comarca": "Montsià",
+		"provincia": "Tarragona"
+	},
+	"Golmés": {
+		"comarca": "Pla d'Urgell",
+		"provincia": "Lleida"
+	},
+	"Gombrèn": {
+		"comarca": "Ripollès",
+		"provincia": "Girona"
+	},
+	"Gósol": {
+		"comarca": "Berguedà",
+		"provincia": "Lleida"
+	},
+	"Granada, la": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Granadella, la": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Granera": {
+		"comarca": "Moianès",
+		"provincia": "Barcelona"
+	},
+	"Granja d'Escarp, la": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Granollers": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Granyanella": {
+		"comarca": "Segarra",
+		"provincia": "Lleida"
+	},
+	"Granyena de les Garrigues": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Granyena de Segarra": {
+		"comarca": "Segarra",
+		"provincia": "Lleida"
+	},
+	"Gratallops": {
+		"comarca": "Priorat",
+		"provincia": "Tarragona"
+	},
+	"Gualba": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Gualta": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Guardiola de Berguedà": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Guiamets, els": {
+		"comarca": "Priorat",
+		"provincia": "Tarragona"
+	},
+	"Guils de Cerdanya": {
+		"comarca": "Cerdanya",
+		"provincia": "Girona"
+	},
+	"Guimerà": {
+		"comarca": "Urgell",
+		"provincia": "Lleida"
+	},
+	"Guingueta d'Àneu, la": {
+		"comarca": "Pallars Sobirà",
+		"provincia": "Lleida"
+	},
+	"Guissona": {
+		"comarca": "Segarra",
+		"provincia": "Lleida"
+	},
+	"Guixers": {
+		"comarca": "Solsonès",
+		"provincia": "Lleida"
+	},
+	"Gurb": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Horta de Sant Joan": {
+		"comarca": "Terra Alta",
+		"provincia": "Tarragona"
+	},
+	"Hospitalet de Llobregat, l'": {
+		"comarca": "Barcelonès",
+		"provincia": "Barcelona"
+	},
+	"Hostalets de Pierola, els": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Hostalric": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Igualada": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Isona i Conca Dellà": {
+		"comarca": "Pallars Jussà",
+		"provincia": "Lleida"
+	},
+	"Isòvol": {
+		"comarca": "Cerdanya",
+		"provincia": "Girona"
+	},
+	"Ivars d'Urgell": {
+		"comarca": "Pla d'Urgell",
+		"provincia": "Lleida"
+	},
+	"Ivars de Noguera": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Ivorra": {
+		"comarca": "Segarra",
+		"provincia": "Lleida"
+	},
+	"Jafre": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Jonquera, la": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Jorba": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Josa i Tuixén": {
+		"comarca": "Alt Urgell",
+		"provincia": "Lleida"
+	},
+	"Juià": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Juncosa": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Juneda": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Les": {
+		"comarca": "Aran",
+		"provincia": "Lleida"
+	},
+	"Linyola": {
+		"comarca": "Pla d'Urgell",
+		"provincia": "Lleida"
+	},
+	"Llacuna, la": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Lladó": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Lladorre": {
+		"comarca": "Pallars Sobirà",
+		"provincia": "Lleida"
+	},
+	"Lladurs": {
+		"comarca": "Solsonès",
+		"provincia": "Lleida"
+	},
+	"Llagosta, la": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Llagostera": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Llambilles": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Llanars": {
+		"comarca": "Ripollès",
+		"provincia": "Girona"
+	},
+	"Llançà": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Llardecans": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Llavorsí": {
+		"comarca": "Pallars Sobirà",
+		"provincia": "Lleida"
+	},
+	"Lleida": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Llers": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Lles de Cerdanya": {
+		"comarca": "Cerdanya",
+		"provincia": "Lleida"
+	},
+	"Lliçà d'Amunt": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Lliçà de Vall": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Llimiana": {
+		"comarca": "Pallars Jussà",
+		"provincia": "Lleida"
+	},
+	"Llinars del Vallès": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Llívia": {
+		"comarca": "Cerdanya",
+		"provincia": "Girona"
+	},
+	"Lloar, el": {
+		"comarca": "Priorat",
+		"provincia": "Tarragona"
+	},
+	"Llobera": {
+		"comarca": "Solsonès",
+		"provincia": "Lleida"
+	},
+	"Llorac": {
+		"comarca": "Conca de Barberà",
+		"provincia": "Tarragona"
+	},
+	"Llorenç del Penedès": {
+		"comarca": "Baix Penedès",
+		"provincia": "Tarragona"
+	},
+	"Lloret de Mar": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Llosses, les": {
+		"comarca": "Ripollès",
+		"provincia": "Girona"
+	},
+	"Lluçà": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Maçanet de Cabrenys": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Maçanet de la Selva": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Madremanya": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Maià de Montcal": {
+		"comarca": "Garrotxa",
+		"provincia": "Girona"
+	},
+	"Maials": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Maldà": {
+		"comarca": "Urgell",
+		"provincia": "Lleida"
+	},
+	"Malgrat de Mar": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Malla": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Manlleu": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Manresa": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Marçà": {
+		"comarca": "Priorat",
+		"provincia": "Tarragona"
+	},
+	"Margalef": {
+		"comarca": "Priorat",
+		"provincia": "Tarragona"
+	},
+	"Marganell": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Martorell": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Martorelles": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Mas de Barberans": {
+		"comarca": "Montsià",
+		"provincia": "Tarragona"
+	},
+	"Masarac": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Masdenverge": {
+		"comarca": "Montsià",
+		"provincia": "Tarragona"
+	},
+	"Masies de Roda, les": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Masies de Voltregà, les": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Masllorenç": {
+		"comarca": "Baix Penedès",
+		"provincia": "Tarragona"
+	},
+	"Masnou, el": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Masó, la": {
+		"comarca": "Alt Camp",
+		"provincia": "Tarragona"
+	},
+	"Maspujols": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Masquefa": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Masroig, el": {
+		"comarca": "Priorat",
+		"provincia": "Tarragona"
+	},
+	"Massalcoreig": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Massanes": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Massoteres": {
+		"comarca": "Segarra",
+		"provincia": "Lleida"
+	},
+	"Matadepera": {
+		"comarca": "Vallès Occidental",
+		"provincia": "Barcelona"
+	},
+	"Mataró": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Medinyà": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Mediona": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Menàrguens": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Meranges": {
+		"comarca": "Cerdanya",
+		"provincia": "Girona"
+	},
+	"Mieres": {
+		"comarca": "Garrotxa",
+		"provincia": "Girona"
+	},
+	"Milà, el": {
+		"comarca": "Alt Camp",
+		"provincia": "Tarragona"
+	},
+	"Miralcamp": {
+		"comarca": "Pla d'Urgell",
+		"provincia": "Lleida"
+	},
+	"Miravet": {
+		"comarca": "Ribera d'Ebre",
+		"provincia": "Tarragona"
+	},
+	"Moià": {
+		"comarca": "Moianès",
+		"provincia": "Barcelona"
+	},
+	"Molar, el": {
+		"comarca": "Priorat",
+		"provincia": "Tarragona"
+	},
+	"Molins de Rei": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Mollerussa": {
+		"comarca": "Pla d'Urgell",
+		"provincia": "Lleida"
+	},
+	"Mollet de Peralada": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Mollet del Vallès": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Molló": {
+		"comarca": "Ripollès",
+		"provincia": "Girona"
+	},
+	"Molsosa, la": {
+		"comarca": "Solsonès",
+		"provincia": "Lleida"
+	},
+	"Monistrol de Calders": {
+		"comarca": "Moianès",
+		"provincia": "Barcelona"
+	},
+	"Monistrol de Montserrat": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Mont-ral": {
+		"comarca": "Alt Camp",
+		"provincia": "Tarragona"
+	},
+	"Mont-ras": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Mont-roig del Camp": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Montagut i Oix": {
+		"comarca": "Garrotxa",
+		"provincia": "Girona"
+	},
+	"Montblanc": {
+		"comarca": "Conca de Barberà",
+		"provincia": "Tarragona"
+	},
+	"Montbrió del Camp": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Montcada i Reixac": {
+		"comarca": "Vallès Occidental",
+		"provincia": "Barcelona"
+	},
+	"Montclar": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Montellà i Martinet": {
+		"comarca": "Cerdanya",
+		"provincia": "Lleida"
+	},
+	"Montesquiu": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Montferrer i Castellbò": {
+		"comarca": "Alt Urgell",
+		"provincia": "Lleida"
+	},
+	"Montferri": {
+		"comarca": "Alt Camp",
+		"provincia": "Tarragona"
+	},
+	"Montgai": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Montgat": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Montmajor": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Montmaneu": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Montmell, el": {
+		"comarca": "Baix Penedès",
+		"provincia": "Tarragona"
+	},
+	"Montmeló": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Montoliu de Lleida": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Montoliu de Segarra": {
+		"comarca": "Segarra",
+		"provincia": "Lleida"
+	},
+	"Montornès de Segarra": {
+		"comarca": "Segarra",
+		"provincia": "Lleida"
+	},
+	"Montornès del Vallès": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Montseny": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Móra d'Ebre": {
+		"comarca": "Ribera d'Ebre",
+		"provincia": "Tarragona"
+	},
+	"Móra la Nova": {
+		"comarca": "Ribera d'Ebre",
+		"provincia": "Tarragona"
+	},
+	"Morell, el": {
+		"comarca": "Tarragonès",
+		"provincia": "Tarragona"
+	},
+	"Morera de Montsant, la": {
+		"comarca": "Priorat",
+		"provincia": "Tarragona"
+	},
+	"Muntanyola": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Mura": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Nalec": {
+		"comarca": "Urgell",
+		"provincia": "Lleida"
+	},
+	"Naut Aran": {
+		"comarca": "Aran",
+		"provincia": "Lleida"
+	},
+	"Navarcles": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Navàs": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Navata": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Navès": {
+		"comarca": "Solsonès",
+		"provincia": "Lleida"
+	},
+	"Nou de Berguedà, la": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Nou de Gaià, la": {
+		"comarca": "Tarragonès",
+		"provincia": "Tarragona"
+	},
+	"Nulles": {
+		"comarca": "Alt Camp",
+		"provincia": "Tarragona"
+	},
+	"Odèn": {
+		"comarca": "Solsonès",
+		"provincia": "Lleida"
+	},
+	"Òdena": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Ogassa": {
+		"comarca": "Ripollès",
+		"provincia": "Girona"
+	},
+	"Olèrdola": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Olesa de Bonesvalls": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Olesa de Montserrat": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Oliana": {
+		"comarca": "Alt Urgell",
+		"provincia": "Lleida"
+	},
+	"Oliola": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Olius": {
+		"comarca": "Solsonès",
+		"provincia": "Lleida"
+	},
+	"Olivella": {
+		"comarca": "Garraf",
+		"provincia": "Barcelona"
+	},
+	"Olost": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Olot": {
+		"comarca": "Garrotxa",
+		"provincia": "Girona"
+	},
+	"Oluges, les": {
+		"comarca": "Segarra",
+		"provincia": "Lleida"
+	},
+	"Olvan": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Omellons, els": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Omells de na Gaia, els": {
+		"comarca": "Urgell",
+		"provincia": "Lleida"
+	},
+	"Ordis": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Organyà": {
+		"comarca": "Alt Urgell",
+		"provincia": "Lleida"
+	},
+	"Orís": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Oristà": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Orpí": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Òrrius": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Os de Balaguer": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Osor": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Ossó de Sió": {
+		"comarca": "Urgell",
+		"provincia": "Lleida"
+	},
+	"Pacs del Penedès": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Palafolls": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Palafrugell": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Palamós": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Palau d'Anglesola, el": {
+		"comarca": "Pla d'Urgell",
+		"provincia": "Lleida"
+	},
+	"Palau de Santa Eulàlia": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Palau-sator": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Palau-saverdera": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Palau-solità i Plegamans": {
+		"comarca": "Vallès Occidental",
+		"provincia": "Barcelona"
+	},
+	"Pallaresos, els": {
+		"comarca": "Tarragonès",
+		"provincia": "Tarragona"
+	},
+	"Pallejà": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Palma d'Ebre, la": {
+		"comarca": "Ribera d'Ebre",
+		"provincia": "Tarragona"
+	},
+	"Palma de Cervelló, la": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Palol de Revardit": {
+		"comarca": "Pla de l'Estany",
+		"provincia": "Girona"
+	},
+	"Pals": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Papiol, el": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Pardines": {
+		"comarca": "Ripollès",
+		"provincia": "Girona"
+	},
+	"Parets del Vallès": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Parlavà": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Passanant i Belltall": {
+		"comarca": "Conca de Barberà",
+		"provincia": "Tarragona"
+	},
+	"Pau": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Paüls": {
+		"comarca": "Baix Ebre",
+		"provincia": "Tarragona"
+	},
+	"Pedret i Marzà": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Penelles": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Pera, la": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Perafita": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Perafort": {
+		"comarca": "Tarragonès",
+		"provincia": "Tarragona"
+	},
+	"Peralada": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Peramola": {
+		"comarca": "Alt Urgell",
+		"provincia": "Lleida"
+	},
+	"Perelló, el": {
+		"comarca": "Baix Ebre",
+		"provincia": "Tarragona"
+	},
+	"Piera": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Piles, les": {
+		"comarca": "Conca de Barberà",
+		"provincia": "Tarragona"
+	},
+	"Pineda de Mar": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Pinell de Brai, el": {
+		"comarca": "Terra Alta",
+		"provincia": "Tarragona"
+	},
+	"Pinell de Solsonès": {
+		"comarca": "Solsonès",
+		"provincia": "Lleida"
+	},
+	"Pinós": {
+		"comarca": "Solsonès",
+		"provincia": "Lleida"
+	},
+	"Pira": {
+		"comarca": "Conca de Barberà",
+		"provincia": "Tarragona"
+	},
+	"Pla de Santa Maria, el": {
+		"comarca": "Alt Camp",
+		"provincia": "Tarragona"
+	},
+	"Pla del Penedès, el": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Planes d'Hostoles, les": {
+		"comarca": "Garrotxa",
+		"provincia": "Girona"
+	},
+	"Planoles": {
+		"comarca": "Ripollès",
+		"provincia": "Girona"
+	},
+	"Plans de Sió, els": {
+		"comarca": "Segarra",
+		"provincia": "Lleida"
+	},
+	"Poal, el": {
+		"comarca": "Pla d'Urgell",
+		"provincia": "Lleida"
+	},
+	"Pobla de Cérvoles, la": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Pobla de Claramunt, la": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Pobla de Lillet, la": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Pobla de Mafumet, la": {
+		"comarca": "Tarragonès",
+		"provincia": "Tarragona"
+	},
+	"Pobla de Massaluca, la": {
+		"comarca": "Terra Alta",
+		"provincia": "Tarragona"
+	},
+	"Pobla de Montornès, la": {
+		"comarca": "Tarragonès",
+		"provincia": "Tarragona"
+	},
+	"Pobla de Segur, la": {
+		"comarca": "Pallars Jussà",
+		"provincia": "Lleida"
+	},
+	"Poboleda": {
+		"comarca": "Priorat",
+		"provincia": "Tarragona"
+	},
+	"Polinyà": {
+		"comarca": "Vallès Occidental",
+		"provincia": "Barcelona"
+	},
+	"Pont d'Armentera, el": {
+		"comarca": "Alt Camp",
+		"provincia": "Tarragona"
+	},
+	"Pont de Bar, el": {
+		"comarca": "Alt Urgell",
+		"provincia": "Lleida"
+	},
+	"Pont de Molins": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Pont de Suert, el": {
+		"comarca": "Alta Ribagorça",
+		"provincia": "Lleida"
+	},
+	"Pont de Vilomara i Rocafort, el": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Pontils": {
+		"comarca": "Conca de Barberà",
+		"provincia": "Tarragona"
+	},
+	"Pontons": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Pontós": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Ponts": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Porqueres": {
+		"comarca": "Pla de l'Estany",
+		"provincia": "Girona"
+	},
+	"Porrera": {
+		"comarca": "Priorat",
+		"provincia": "Tarragona"
+	},
+	"Port de la Selva, el": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Portbou": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Portella, la": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Pradell de la Teixeta": {
+		"comarca": "Priorat",
+		"provincia": "Tarragona"
+	},
+	"Prades": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Prat de Comte": {
+		"comarca": "Terra Alta",
+		"provincia": "Tarragona"
+	},
+	"Prat de Llobregat, el": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Pratdip": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Prats de Lluçanès": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Prats de Rei, els": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Prats i Sansor": {
+		"comarca": "Cerdanya",
+		"provincia": "Lleida"
+	},
+	"Preixana": {
+		"comarca": "Urgell",
+		"provincia": "Lleida"
+	},
+	"Preixens": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Premià de Dalt": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Premià de Mar": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Preses, les": {
+		"comarca": "Garrotxa",
+		"provincia": "Girona"
+	},
+	"Prullans": {
+		"comarca": "Cerdanya",
+		"provincia": "Lleida"
+	},
+	"Puig-reig": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Puigcerdà": {
+		"comarca": "Cerdanya",
+		"provincia": "Girona"
+	},
+	"Puigdàlber": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Puiggròs": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Puigpelat": {
+		"comarca": "Alt Camp",
+		"provincia": "Tarragona"
+	},
+	"Puigverd d'Agramunt": {
+		"comarca": "Urgell",
+		"provincia": "Lleida"
+	},
+	"Puigverd de Lleida": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Pujalt": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Quar, la": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Quart": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Queralbs": {
+		"comarca": "Ripollès",
+		"provincia": "Girona"
+	},
+	"Querol": {
+		"comarca": "Alt Camp",
+		"provincia": "Tarragona"
+	},
+	"Rabós": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Rajadell": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Rasquera": {
+		"comarca": "Ribera d'Ebre",
+		"provincia": "Tarragona"
+	},
+	"Regencós": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Rellinars": {
+		"comarca": "Vallès Occidental",
+		"provincia": "Barcelona"
+	},
+	"Renau": {
+		"comarca": "Tarragonès",
+		"provincia": "Tarragona"
+	},
+	"Reus": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Rialp": {
+		"comarca": "Pallars Sobirà",
+		"provincia": "Lleida"
+	},
+	"Riba-roja d'Ebre": {
+		"comarca": "Ribera d'Ebre",
+		"provincia": "Tarragona"
+	},
+	"Riba, la": {
+		"comarca": "Alt Camp",
+		"provincia": "Tarragona"
+	},
+	"Ribera d'Ondara": {
+		"comarca": "Segarra",
+		"provincia": "Lleida"
+	},
+	"Ribera d'Urgellet": {
+		"comarca": "Alt Urgell",
+		"provincia": "Lleida"
+	},
+	"Ribes de Freser": {
+		"comarca": "Ripollès",
+		"provincia": "Girona"
+	},
+	"Riells i Viabrea": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Riera de Gaià, la": {
+		"comarca": "Tarragonès",
+		"provincia": "Tarragona"
+	},
+	"Riner": {
+		"comarca": "Solsonès",
+		"provincia": "Lleida"
+	},
+	"Ripoll": {
+		"comarca": "Ripollès",
+		"provincia": "Girona"
+	},
+	"Ripollet": {
+		"comarca": "Vallès Occidental",
+		"provincia": "Barcelona"
+	},
+	"Riu de Cerdanya": {
+		"comarca": "Cerdanya",
+		"provincia": "Lleida"
+	},
+	"Riudarenes": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Riudaura": {
+		"comarca": "Garrotxa",
+		"provincia": "Girona"
+	},
+	"Riudecanyes": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Riudecols": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Riudellots de la Selva": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Riudoms": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Riumors": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Roca del Vallès, la": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Rocafort de Queralt": {
+		"comarca": "Conca de Barberà",
+		"provincia": "Tarragona"
+	},
+	"Roda de Berà": {
+		"comarca": "Tarragonès",
+		"provincia": "Tarragona"
+	},
+	"Roda de Ter": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Rodonyà": {
+		"comarca": "Alt Camp",
+		"provincia": "Tarragona"
+	},
+	"Roquetes": {
+		"comarca": "Baix Ebre",
+		"provincia": "Tarragona"
+	},
+	"Roses": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Rosselló": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Rourell, el": {
+		"comarca": "Alt Camp",
+		"provincia": "Tarragona"
+	},
+	"Rubí": {
+		"comarca": "Vallès Occidental",
+		"provincia": "Barcelona"
+	},
+	"Rubió": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Rupià": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Rupit i Pruit": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Sabadell": {
+		"comarca": "Vallès Occidental",
+		"provincia": "Barcelona"
+	},
+	"Sagàs": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Salàs de Pallars": {
+		"comarca": "Pallars Jussà",
+		"provincia": "Lleida"
+	},
+	"Saldes": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Sales de Llierca": {
+		"comarca": "Garrotxa",
+		"provincia": "Girona"
+	},
+	"Sallent": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Salomó": {
+		"comarca": "Tarragonès",
+		"provincia": "Tarragona"
+	},
+	"Salou": {
+		"comarca": "Tarragonès",
+		"provincia": "Tarragona"
+	},
+	"Salt": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Sanaüja": {
+		"comarca": "Segarra",
+		"provincia": "Lleida"
+	},
+	"Sant Adrià de Besòs": {
+		"comarca": "Barcelonès",
+		"provincia": "Barcelona"
+	},
+	"Sant Agustí de Lluçanès": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Sant Andreu de la Barca": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Sant Andreu de Llavaneres": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Sant Andreu Salou": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Sant Aniol de Finestres": {
+		"comarca": "Garrotxa",
+		"provincia": "Girona"
+	},
+	"Sant Antoni de Vilamajor": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Sant Bartomeu del Grau": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Sant Boi de Llobregat": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Sant Boi de Lluçanès": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Sant Carles de la Ràpita": {
+		"comarca": "Montsià",
+		"provincia": "Tarragona"
+	},
+	"Sant Cebrià de Vallalta": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Sant Celoni": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Sant Climent de Llobregat": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Sant Climent Sescebes": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Sant Cugat del Vallès": {
+		"comarca": "Vallès Occidental",
+		"provincia": "Barcelona"
+	},
+	"Sant Cugat Sesgarrigues": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Sant Esteve de la Sarga": {
+		"comarca": "Pallars Jussà",
+		"provincia": "Lleida"
+	},
+	"Sant Esteve de Palautordera": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Sant Esteve Sesrovires": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Sant Feliu de Buixalleu": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Sant Feliu de Codines": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Sant Feliu de Guíxols": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Sant Feliu de Llobregat": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Sant Feliu de Pallerols": {
+		"comarca": "Garrotxa",
+		"provincia": "Girona"
+	},
+	"Sant Feliu Sasserra": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Sant Ferriol": {
+		"comarca": "Garrotxa",
+		"provincia": "Girona"
+	},
+	"Sant Fost de Campsentelles": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Sant Fruitós de Bages": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Sant Gregori": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Sant Guim de Freixenet": {
+		"comarca": "Segarra",
+		"provincia": "Lleida"
+	},
+	"Sant Guim de la Plana": {
+		"comarca": "Segarra",
+		"provincia": "Lleida"
+	},
+	"Sant Hilari Sacalm": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Sant Hipòlit de Voltregà": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Sant Iscle de Vallalta": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Sant Jaume d'Enveja": {
+		"comarca": "Montsià",
+		"provincia": "Tarragona"
+	},
+	"Sant Jaume de Frontanyà": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Sant Jaume de Llierca": {
+		"comarca": "Garrotxa",
+		"provincia": "Girona"
+	},
+	"Sant Jaume dels Domenys": {
+		"comarca": "Baix Penedès",
+		"provincia": "Tarragona"
+	},
+	"Sant Joan de les Abadesses": {
+		"comarca": "Ripollès",
+		"provincia": "Girona"
+	},
+	"Sant Joan de Mollet": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Sant Joan de Vilatorrada": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Sant Joan Despí": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Sant Joan les Fonts": {
+		"comarca": "Garrotxa",
+		"provincia": "Girona"
+	},
+	"Sant Jordi Desvalls": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Sant Julià de Cerdanyola": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Sant Julià de Ramis": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Sant Julià de Vilatorta": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Sant Julià del Llor i Bonmatí": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Sant Just Desvern": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Sant Llorenç d'Hortons": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Sant Llorenç de la Muga": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Sant Llorenç de Morunys": {
+		"comarca": "Solsonès",
+		"provincia": "Lleida"
+	},
+	"Sant Llorenç Savall": {
+		"comarca": "Vallès Occidental",
+		"provincia": "Barcelona"
+	},
+	"Sant Martí d'Albars": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Sant Martí de Centelles": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Sant Martí de Llémena": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Sant Martí de Riucorb": {
+		"comarca": "Urgell",
+		"provincia": "Lleida"
+	},
+	"Sant Martí de Tous": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Sant Martí Sarroca": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Sant Martí Sesgueioles": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Sant Martí Vell": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Sant Mateu de Bages": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Sant Miquel de Campmajor": {
+		"comarca": "Pla de l'Estany",
+		"provincia": "Girona"
+	},
+	"Sant Miquel de Fluvià": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Sant Mori": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Sant Pau de Segúries": {
+		"comarca": "Ripollès",
+		"provincia": "Girona"
+	},
+	"Sant Pere de Ribes": {
+		"comarca": "Garraf",
+		"provincia": "Barcelona"
+	},
+	"Sant Pere de Riudebitlles": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Sant Pere de Torelló": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Sant Pere de Vilamajor": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Sant Pere Pescador": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Sant Pere Sallavinera": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Sant Pol de Mar": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Sant Quintí de Mediona": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Sant Quirze de Besora": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Sant Quirze del Vallès": {
+		"comarca": "Vallès Occidental",
+		"provincia": "Barcelona"
+	},
+	"Sant Quirze Safaja": {
+		"comarca": "Moianès",
+		"provincia": "Barcelona"
+	},
+	"Sant Ramon": {
+		"comarca": "Segarra",
+		"provincia": "Lleida"
+	},
+	"Sant Sadurní d'Anoia": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Sant Sadurní d'Osormort": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Sant Salvador de Guardiola": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Sant Vicenç de Castellet": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Sant Vicenç de Montalt": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Sant Vicenç de Torelló": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Sant Vicenç dels Horts": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Santa Bàrbara": {
+		"comarca": "Montsià",
+		"provincia": "Tarragona"
+	},
+	"Santa Cecília de Voltregà": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Santa Coloma de Cervelló": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Santa Coloma de Farners": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Santa Coloma de Gramenet": {
+		"comarca": "Barcelonès",
+		"provincia": "Barcelona"
+	},
+	"Santa Coloma de Queralt": {
+		"comarca": "Conca de Barberà",
+		"provincia": "Tarragona"
+	},
+	"Santa Cristina d'Aro": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Santa Eugènia de Berga": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Santa Eulàlia de Riuprimer": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Santa Eulàlia de Ronçana": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Santa Fe del Penedès": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Santa Llogaia d'Àlguema": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Santa Margarida de Montbui": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Santa Margarida i els Monjos": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Santa Maria d'Oló": {
+		"comarca": "Moianès",
+		"provincia": "Barcelona"
+	},
+	"Santa Maria de Besora": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Santa Maria de Martorelles": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Santa Maria de Merlès": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Santa Maria de Miralles": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Santa Maria de Palautordera": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Santa Oliva": {
+		"comarca": "Baix Penedès",
+		"provincia": "Tarragona"
+	},
+	"Santa Pau": {
+		"comarca": "Garrotxa",
+		"provincia": "Girona"
+	},
+	"Santa Perpètua de Mogoda": {
+		"comarca": "Vallès Occidental",
+		"provincia": "Barcelona"
+	},
+	"Santa Susanna": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Santpedor": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Sarral": {
+		"comarca": "Conca de Barberà",
+		"provincia": "Tarragona"
+	},
+	"Sarrià de Ter": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Sarroca de Bellera": {
+		"comarca": "Pallars Jussà",
+		"provincia": "Lleida"
+	},
+	"Sarroca de Lleida": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Saus, Camallera i Llampaies": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Savallà del Comtat": {
+		"comarca": "Conca de Barberà",
+		"provincia": "Tarragona"
+	},
+	"Secuita, la": {
+		"comarca": "Tarragonès",
+		"provincia": "Tarragona"
+	},
+	"Selva de Mar, la": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Selva del Camp, la": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Senan": {
+		"comarca": "Conca de Barberà",
+		"provincia": "Tarragona"
+	},
+	"Sénia, la": {
+		"comarca": "Montsià",
+		"provincia": "Tarragona"
+	},
+	"Senterada": {
+		"comarca": "Pallars Jussà",
+		"provincia": "Lleida"
+	},
+	"Sentiu de Sió, la": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Sentmenat": {
+		"comarca": "Vallès Occidental",
+		"provincia": "Barcelona"
+	},
+	"Serinyà": {
+		"comarca": "Pla de l'Estany",
+		"provincia": "Girona"
+	},
+	"Seròs": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Serra de Daró": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Setcases": {
+		"comarca": "Ripollès",
+		"provincia": "Girona"
+	},
+	"Seu d'Urgell, la": {
+		"comarca": "Alt Urgell",
+		"provincia": "Lleida"
+	},
+	"Seva": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Sidamon": {
+		"comarca": "Pla d'Urgell",
+		"provincia": "Lleida"
+	},
+	"Sils": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Sitges": {
+		"comarca": "Garraf",
+		"provincia": "Barcelona"
+	},
+	"Siurana": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Sobremunt": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Soleràs, el": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Solivella": {
+		"comarca": "Conca de Barberà",
+		"provincia": "Tarragona"
+	},
+	"Solsona": {
+		"comarca": "Solsonès",
+		"provincia": "Lleida"
+	},
+	"Sora": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Soriguera": {
+		"comarca": "Pallars Sobirà",
+		"provincia": "Lleida"
+	},
+	"Sort": {
+		"comarca": "Pallars Sobirà",
+		"provincia": "Lleida"
+	},
+	"Soses": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Subirats": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Sudanell": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Sunyer": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Súria": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Susqueda": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Tagamanent": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Talamanca": {
+		"comarca": "Bages",
+		"provincia": "Barcelona"
+	},
+	"Talarn": {
+		"comarca": "Pallars Jussà",
+		"provincia": "Lleida"
+	},
+	"Talavera": {
+		"comarca": "Segarra",
+		"provincia": "Lleida"
+	},
+	"Tallada d'Empordà, la": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Taradell": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Tarragona": {
+		"comarca": "Tarragonès",
+		"provincia": "Tarragona"
+	},
+	"Tàrrega": {
+		"comarca": "Urgell",
+		"provincia": "Lleida"
+	},
+	"Tarrés": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Tarroja de Segarra": {
+		"comarca": "Segarra",
+		"provincia": "Lleida"
+	},
+	"Tavèrnoles": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Tavertet": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Teià": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Térmens": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Terrades": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Terrassa": {
+		"comarca": "Vallès Occidental",
+		"provincia": "Barcelona"
+	},
+	"Tiana": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Tírvia": {
+		"comarca": "Pallars Sobirà",
+		"provincia": "Lleida"
+	},
+	"Tiurana": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Tivenys": {
+		"comarca": "Baix Ebre",
+		"provincia": "Tarragona"
+	},
+	"Tivissa": {
+		"comarca": "Ribera d'Ebre",
+		"provincia": "Tarragona"
+	},
+	"Tona": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Torà": {
+		"comarca": "Segarra",
+		"provincia": "Lleida"
+	},
+	"Tordera": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Torelló": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Torms, els": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Tornabous": {
+		"comarca": "Urgell",
+		"provincia": "Lleida"
+	},
+	"Torre de Cabdella, la": {
+		"comarca": "Pallars Jussà",
+		"provincia": "Lleida"
+	},
+	"Torre de Claramunt, la": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Torre de Fontaubella, la": {
+		"comarca": "Priorat",
+		"provincia": "Tarragona"
+	},
+	"Torre de l'Espanyol, la": {
+		"comarca": "Ribera d'Ebre",
+		"provincia": "Tarragona"
+	},
+	"Torre-serona": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Torrebesses": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Torredembarra": {
+		"comarca": "Tarragonès",
+		"provincia": "Tarragona"
+	},
+	"Torrefarrera": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Torrefeta i Florejacs": {
+		"comarca": "Segarra",
+		"provincia": "Lleida"
+	},
+	"Torregrossa": {
+		"comarca": "Pla d'Urgell",
+		"provincia": "Lleida"
+	},
+	"Torrelameu": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Torrelavit": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Torrelles de Foix": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Torrelles de Llobregat": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Torrent": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Torres de Segre": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Torroella de Fluvià": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Torroella de Montgrí": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Torroja del Priorat": {
+		"comarca": "Priorat",
+		"provincia": "Tarragona"
+	},
+	"Tortellà": {
+		"comarca": "Garrotxa",
+		"provincia": "Girona"
+	},
+	"Tortosa": {
+		"comarca": "Baix Ebre",
+		"provincia": "Tarragona"
+	},
+	"Toses": {
+		"comarca": "Ripollès",
+		"provincia": "Girona"
+	},
+	"Tossa de Mar": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Tremp": {
+		"comarca": "Pallars Jussà",
+		"provincia": "Lleida"
+	},
+	"Ullà": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Ullastrell": {
+		"comarca": "Vallès Occidental",
+		"provincia": "Barcelona"
+	},
+	"Ullastret": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Ulldecona": {
+		"comarca": "Montsià",
+		"provincia": "Tarragona"
+	},
+	"Ulldemolins": {
+		"comarca": "Priorat",
+		"provincia": "Tarragona"
+	},
+	"Ultramort": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Urús": {
+		"comarca": "Cerdanya",
+		"provincia": "Girona"
+	},
+	"Vacarisses": {
+		"comarca": "Vallès Occidental",
+		"provincia": "Barcelona"
+	},
+	"Vajol, la": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Vall d'en Bas, la": {
+		"comarca": "Garrotxa",
+		"provincia": "Girona"
+	},
+	"Vall de Bianya, la": {
+		"comarca": "Garrotxa",
+		"provincia": "Girona"
+	},
+	"Vall de Boí, la": {
+		"comarca": "Alta Ribagorça",
+		"provincia": "Lleida"
+	},
+	"Vall de Cardós": {
+		"comarca": "Pallars Sobirà",
+		"provincia": "Lleida"
+	},
+	"Vall-llobrega": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Vallbona d'Anoia": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Vallbona de les Monges": {
+		"comarca": "Urgell",
+		"provincia": "Lleida"
+	},
+	"Vallcebre": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Vallclara": {
+		"comarca": "Conca de Barberà",
+		"provincia": "Tarragona"
+	},
+	"Vallfogona de Balaguer": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Vallfogona de Ripollès": {
+		"comarca": "Ripollès",
+		"provincia": "Girona"
+	},
+	"Vallfogona de Riucorb": {
+		"comarca": "Conca de Barberà",
+		"provincia": "Tarragona"
+	},
+	"Vallgorguina": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Vallirana": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Vallmoll": {
+		"comarca": "Alt Camp",
+		"provincia": "Tarragona"
+	},
+	"Vallromanes": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Valls": {
+		"comarca": "Alt Camp",
+		"provincia": "Tarragona"
+	},
+	"Valls d'Aguilar, les": {
+		"comarca": "Alt Urgell",
+		"provincia": "Lleida"
+	},
+	"Valls de Valira, les": {
+		"comarca": "Alt Urgell",
+		"provincia": "Lleida"
+	},
+	"Vandellòs i l'Hospitalet de l'Infant": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Vansa i Fórnols, la": {
+		"comarca": "Alt Urgell",
+		"provincia": "Lleida"
+	},
+	"Veciana": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Vendrell, el": {
+		"comarca": "Baix Penedès",
+		"provincia": "Tarragona"
+	},
+	"Ventalló": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Verdú": {
+		"comarca": "Urgell",
+		"provincia": "Lleida"
+	},
+	"Verges": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Vespella de Gaià": {
+		"comarca": "Tarragonès",
+		"provincia": "Tarragona"
+	},
+	"Vic": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Vidrà": {
+		"comarca": "Osona",
+		"provincia": "Girona"
+	},
+	"Vidreres": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Vielha e Mijaran": {
+		"comarca": "Aran",
+		"provincia": "Lleida"
+	},
+	"Vila-rodona": {
+		"comarca": "Alt Camp",
+		"provincia": "Tarragona"
+	},
+	"Vila-sacra": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Vila-sana": {
+		"comarca": "Pla d'Urgell",
+		"provincia": "Lleida"
+	},
+	"Vila-seca": {
+		"comarca": "Tarragonès",
+		"provincia": "Tarragona"
+	},
+	"Vilabella": {
+		"comarca": "Alt Camp",
+		"provincia": "Tarragona"
+	},
+	"Vilabertran": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Vilablareix": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Vilada": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Viladamat": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Viladasens": {
+		"comarca": "Gironès",
+		"provincia": "Girona"
+	},
+	"Viladecans": {
+		"comarca": "Baix Llobregat",
+		"provincia": "Barcelona"
+	},
+	"Viladecavalls": {
+		"comarca": "Vallès Occidental",
+		"provincia": "Barcelona"
+	},
+	"Vilademuls": {
+		"comarca": "Pla de l'Estany",
+		"provincia": "Girona"
+	},
+	"Viladrau": {
+		"comarca": "Osona",
+		"provincia": "Girona"
+	},
+	"Vilafant": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Vilafranca del Penedès": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Vilagrassa": {
+		"comarca": "Urgell",
+		"provincia": "Lleida"
+	},
+	"Vilajuïga": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Vilalba dels Arcs": {
+		"comarca": "Terra Alta",
+		"provincia": "Tarragona"
+	},
+	"Vilalba Sasserra": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Vilaller": {
+		"comarca": "Alta Ribagorça",
+		"provincia": "Lleida"
+	},
+	"Vilallonga de Ter": {
+		"comarca": "Ripollès",
+		"provincia": "Girona"
+	},
+	"Vilallonga del Camp": {
+		"comarca": "Tarragonès",
+		"provincia": "Tarragona"
+	},
+	"Vilamacolum": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Vilamalla": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Vilamaniscle": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Vilamòs": {
+		"comarca": "Aran",
+		"provincia": "Lleida"
+	},
+	"Vilanant": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Vilanova d'Escornalbou": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Vilanova de Bellpuig": {
+		"comarca": "Pla d'Urgell",
+		"provincia": "Lleida"
+	},
+	"Vilanova de l'Aguda": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Vilanova de la Barca": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Vilanova de Meià": {
+		"comarca": "Noguera",
+		"provincia": "Lleida"
+	},
+	"Vilanova de Prades": {
+		"comarca": "Conca de Barberà",
+		"provincia": "Tarragona"
+	},
+	"Vilanova de Sau": {
+		"comarca": "Osona",
+		"provincia": "Barcelona"
+	},
+	"Vilanova de Segrià": {
+		"comarca": "Segrià",
+		"provincia": "Lleida"
+	},
+	"Vilanova del Camí": {
+		"comarca": "Anoia",
+		"provincia": "Barcelona"
+	},
+	"Vilanova del Vallès": {
+		"comarca": "Vallès Oriental",
+		"provincia": "Barcelona"
+	},
+	"Vilanova i la Geltrú": {
+		"comarca": "Garraf",
+		"provincia": "Barcelona"
+	},
+	"Vilaplana": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Vilassar de Dalt": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Vilassar de Mar": {
+		"comarca": "Maresme",
+		"provincia": "Barcelona"
+	},
+	"Vilaür": {
+		"comarca": "Alt Empordà",
+		"provincia": "Girona"
+	},
+	"Vilaverd": {
+		"comarca": "Conca de Barberà",
+		"provincia": "Tarragona"
+	},
+	"Vilella Alta, la": {
+		"comarca": "Priorat",
+		"provincia": "Tarragona"
+	},
+	"Vilella Baixa, la": {
+		"comarca": "Priorat",
+		"provincia": "Tarragona"
+	},
+	"Vilobí d'Onyar": {
+		"comarca": "Selva",
+		"provincia": "Girona"
+	},
+	"Vilobí del Penedès": {
+		"comarca": "Alt Penedès",
+		"provincia": "Barcelona"
+	},
+	"Vilopriu": {
+		"comarca": "Baix Empordà",
+		"provincia": "Girona"
+	},
+	"Vilosell, el": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Vimbodí i Poblet": {
+		"comarca": "Conca de Barberà",
+		"provincia": "Tarragona"
+	},
+	"Vinaixa": {
+		"comarca": "Garrigues",
+		"provincia": "Lleida"
+	},
+	"Vinebre": {
+		"comarca": "Ribera d'Ebre",
+		"provincia": "Tarragona"
+	},
+	"Vinyols i els Arcs": {
+		"comarca": "Baix Camp",
+		"provincia": "Tarragona"
+	},
+	"Viver i Serrateix": {
+		"comarca": "Berguedà",
+		"provincia": "Barcelona"
+	},
+	"Xerta": {
+		"comarca": "Baix Ebre",
+		"provincia": "Tarragona"
+	}
+}

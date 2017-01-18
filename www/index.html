@@ -66,6 +66,7 @@
       <div class="row">
         <div class="col-md-8 col-sm-12">
           <div ng-controller="FormCtrl">
+
             <!-- INICI -->
             <div id="tipus" ng-show="step_id=='tipus'">
               <h1 class="page-header">Formularis d'assessorament i acompanyament</h1>
@@ -264,8 +265,8 @@
                   <legend>Dades de l'entitat</legend>
                   <div class="row">
                     <div class="form-group form-inline col-xs-6">
-                      <label for="dni">Nom de l'entitat</label>
-                      <input type="text" class="form-control" id="dni" ng-model="data.altres_dades.nom_entitat" ng-required="data.altres_dades.personal_entitat=='entitat'">
+                      <label for="nom_entitat">Nom de l'entitat</label>
+                      <input type="text" class="form-control" id="nom_entitat" ng-model="data.altres_dades.nom_entitat" ng-required="data.altres_dades.personal_entitat=='entitat'">
                     </div>
                     <div class="form-group form-inline col-xs-6">
                       <label for="dni">NIF de l'entitat</label>
@@ -353,7 +354,8 @@
             <!-- ENVIAT -->
             <div id="compromis" ng-show="step_id=='enviat'">
               <h1 class="page-header">Formulari registrat</h1>
-              <div class="alert alert-success" role="alert">El formulari s'ha registrat correctament. Moltes gràcies per contactar amb nosaltres, en 72 hores com a màxim ens posarem en contacte amb tu.</div>
+              <div class="alert alert-warning" role="alert" ng-show="error">S'ha produit un error. Si us plau posa't en contacte amb serveis@voluntariat.org</div>
+              <div class="alert alert-success" role="alert" ng-hide="error">El formulari s'ha registrat correctament. Moltes gràcies per contactar amb nosaltres, en 72 hores com a màxim ens posarem en contacte amb tu.</div>
               <p>&nbsp;</p>
               <button type="button" class="btn btn-warning" ng-click="restart()">Tornar a l'inici</button>
             </div>
