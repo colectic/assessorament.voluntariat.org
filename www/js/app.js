@@ -33,7 +33,7 @@ myApp.factory("CustomerUser", function($resource){
 });
 myApp.factory("Ticket", function($resource){
     //TODO!!!!! Treure usuari i contrassenya
-    return $resource('http://otrs.xarxanet.org/Webservice/Ticket?UserLogin=xxxx&Password=xxxx');
+    return $resource('http://otrs.xarxanet.org/Webservice/Ticket?UserLogin=xxx&Password=xxx');
 });
 
 myApp.controller("RssCtrl", function($scope, $http){
@@ -73,6 +73,18 @@ myApp.controller("FormCtrl", function($http, $scope, Towns, Structures, Hows, Ar
     $scope.town_tree = res.data;
   });
 
+  function wordsTruncate(input, words) {
+    if (isNaN(words)) return input;
+    if (words <= 0) return '';
+    if (input) {
+      var inputWords = input.split(/\s+/);
+      if (inputWords.length > words) {
+        input = inputWords.slice(0, words).join(' ') + '…';
+      }
+    }
+    return input;
+  };
+
   $scope.setType = function(type) {
 	  $scope.data.tipus = type;
 	  $scope.advance();
@@ -94,18 +106,11 @@ myApp.controller("FormCtrl", function($http, $scope, Towns, Structures, Hows, Ar
   }
 
   $scope.send = function() {
-    //console.log($scope.customer_company);
-    //console.log($scope.data);
-    //console.log($scope.customer_company.$get(function(){}));
-    //var name = $scope.data.altres_dades.personal_entitat == 'personal' ? $scope.data.dades_personals.nom+' '+$scope.data.dades_personals.cognom : $scope.data.altres_dades.nom_entitat;
-
     var date =  moment(new Date()).format("YYYY-MM-DD HH:mm:ss");
 
     //Customer company
-    var customer_id = $scope.data.altres_dades.dni_nif + '-' + $scope.data.altres_dades.town;
-    var name = ($scope.data.altres_dades.dni_nif.personal_entitat == 'personal') ? $scope.data.dades_personals.nom + ' ' + $scope.data.dades_personals.cognom : $scope.data.altres_dades.nom_entitat;
-
-    console.log($scope.town_tree[$scope.data.altres_dades.town]);
+    var customer_id = $scope.data.altres_dades.dni_nif + ' - ' + $scope.data.altres_dades.town;
+    var name = ($scope.data.altres_dades.personal_entitat == 'personal') ? $scope.data.dades_personals.nom + ' ' + $scope.data.dades_personals.cognom : $scope.data.altres_dades.nom_entitat;
 
     $scope.customer_company.$get({customer_id: customer_id}, function(data){
       console.log('success');
@@ -115,12 +120,12 @@ myApp.controller("FormCtrl", function($http, $scope, Towns, Structures, Hows, Ar
       $scope.customer_company.name = name;
       $scope.customer_company.CIF = $scope.data.altres_dades.dni_nif;
       $scope.customer_company.city = $scope.data.altres_dades.town;
-      $scope.customer_company.comarca = 'a';
-      $scope.customer_company.provincia = 'a';
-      $scope.customer_company.ambit_actuacio = 'a';
-      $scope.customer_company.forma_juridica = 'a';
-      $scope.customer_company.via_coneixement = 'a';
-      $scope.customer_company.valid_id = 1;
+      $scope.customer_company.comarca = $scope.town_tree[$scope.data.altres_dades.town].comarca;
+      $scope.customer_company.provincia = $scope.town_tree[$scope.data.altres_dades.town].provincia;
+      $scope.customer_company.ambit_actuacio = ($scope.data.altres_dades.personal_entitat == 'personal') ? 'Particular' : $scope.data.altres_dades.area;
+      $scope.customer_company.forma_juridica = ($scope.data.altres_dades.personal_entitat == 'personal') ? 'Particular' : $scope.data.altres_dades.structure;
+      $scope.customer_company.via_coneixement = $scope.data.conegut;
+      $scope.customer_company.valid_id = 3;
       $scope.customer_company.create_time = date;
       $scope.customer_company.create_by = 2;
       $scope.customer_company.change_time = date;
@@ -139,7 +144,7 @@ myApp.controller("FormCtrl", function($http, $scope, Towns, Structures, Hows, Ar
       $scope.customer_user.id = 0;
       $scope.customer_user.login = login;
       $scope.customer_user.email = $scope.data.altres_dades.email;
-      $scope.customer_user.customer_id = $scope.data.altres_dades.dni_nif + '-' + $scope.data.altres_dades.town;
+      $scope.customer_user.customer_id = $scope.data.altres_dades.dni_nif + ' - ' + $scope.data.altres_dades.town;
       $scope.customer_user.pw = null;
       $scope.customer_user.title = null;
       $scope.customer_user.first_name = $scope.data.dades_personals.nom;
@@ -159,22 +164,23 @@ myApp.controller("FormCtrl", function($http, $scope, Towns, Structures, Hows, Ar
       });
     });
 
-    /*
+    //Ticket
+    var tipus = ($scope.data.tipus == 'puntual') ? 1 : 2;
     $scope.ticket.Ticket = {
-      'CustomerUser' : 'felix.casanellas@elteb.org',
+      'CustomerUser' : $scope.data.altres_dades.email,
       'Priority' : '3 normal',
-      'Queue' : 'Raw',
+      'QueueID' : 6,
       'State' : 'open',
-      'Title' : 'Tiquet de prova',
-      'Type' : 'Unclassified'
+      'Title' : wordsTruncate($scope.data.consulta, 10),
+      'TypeID' : tipus
     };
     $scope.ticket.Article = {
-      'Body' : 'Cos del Tiquet',
+      'Body' : $scope.data.consulta,
       'ContentType' : 'text/plain; charset=utf8',
-      'Subject' : 'Tiquet de prova'
+      'Subject' : wordsTruncate($scope.data.consulta, 10)
     };
     $scope.ticket.$save();
-    */
+
     $scope.step = 0;
     $scope.step_id = 'enviat';
   }
