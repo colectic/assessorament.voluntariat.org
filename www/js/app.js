@@ -169,7 +169,7 @@ myApp.controller("FormCtrl", function($http, $scope, Towns, Structures, Hows, Ar
     $scope.ticket.Ticket = {
       'CustomerUser' : $scope.data.altres_dades.email,
       'Priority' : '3 normal',
-      'QueueID' : 6,
+      'QueueID' : 2,
       'State' : 'open',
       'Title' : wordsTruncate($scope.data.consulta, 10),
       'TypeID' : tipus
