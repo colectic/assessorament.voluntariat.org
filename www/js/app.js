@@ -170,7 +170,7 @@ myApp.controller("FormCtrl", function($http, $scope, Towns, Structures, Hows, Ar
       'CustomerUser' : $scope.data.altres_dades.email,
       'Priority' : '3 normal',
       'QueueID' : 2,
-      'State' : 'open',
+      'State' : 'new',
       'Title' : wordsTruncate($scope.data.consulta, 10),
       'TypeID' : tipus
     };
