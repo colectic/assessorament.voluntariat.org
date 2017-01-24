@@ -125,7 +125,7 @@ myApp.controller("FormCtrl", function($http, $scope, Towns, Structures, Hows, Ar
       $scope.customer_company.ambit_actuacio = ($scope.data.altres_dades.personal_entitat == 'personal') ? 'Particular' : $scope.data.altres_dades.area;
       $scope.customer_company.forma_juridica = ($scope.data.altres_dades.personal_entitat == 'personal') ? 'Particular' : $scope.data.altres_dades.structure;
       $scope.customer_company.via_coneixement = $scope.data.conegut;
-      $scope.customer_company.valid_id = 3;
+      $scope.customer_company.valid_id = 1;
       $scope.customer_company.create_time = date;
       $scope.customer_company.create_by = 2;
       $scope.customer_company.change_time = date;
@@ -154,7 +154,7 @@ myApp.controller("FormCtrl", function($http, $scope, Towns, Structures, Hows, Ar
       $scope.customer_user.email_ext00 = '-';
       $scope.customer_user.email_ext01 = '-';
       $scope.customer_user.comments = null;
-      $scope.customer_user.valid_id = 3;
+      $scope.customer_user.valid_id = 1;
       $scope.customer_user.create_time = date;
       $scope.customer_user.create_by = 2;
       $scope.customer_user.change_time = date;
