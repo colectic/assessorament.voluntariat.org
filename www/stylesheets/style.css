@@ -8796,17 +8796,22 @@ button.close {
 
 /* line 5, ../sass/style.scss */
 .navbar-2 {
+  background-image: url(../img/header-texture.png);
+  background-repeat: repeat-x;
+}
+/* line 8, ../sass/style.scss */
+.navbar-2 .container {
   background-image: url(../img/header-bg.png);
   height: 93px;
 }
 
-/* line 9, ../sass/style.scss */
+/* line 12, ../sass/style.scss */
 .navbar-brand {
   padding-top: 10px;
 }
 
 /*** FOOTER ***/
-/* line 12, ../sass/style.scss */
+/* line 15, ../sass/style.scss */
 .footer {
   border-top: 1px solid #ddd;
   padding: 15px 0px;
