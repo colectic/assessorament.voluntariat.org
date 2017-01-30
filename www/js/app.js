@@ -112,64 +112,49 @@ myApp.controller("FormCtrl", function($http, $scope, Towns, Structures, Hows, Ar
     var customer_id = $scope.data.altres_dades.dni_nif + ' - ' + $scope.data.altres_dades.town;
     var name = ($scope.data.altres_dades.personal_entitat == 'personal') ? $scope.data.dades_personals.nom + ' ' + $scope.data.dades_personals.cognom : $scope.data.altres_dades.nom_entitat;
 
-    $scope.customer_company.$get({customer_id: customer_id}, function(data){
-      console.log('success');
-    }, function(error){
-      console.log('error');
-      $scope.customer_company.customer_id = customer_id;
-      $scope.customer_company.name = name;
-      $scope.customer_company.CIF = $scope.data.altres_dades.dni_nif;
-      $scope.customer_company.city = $scope.data.altres_dades.town;
-      $scope.customer_company.comarca = $scope.town_tree[$scope.data.altres_dades.town].comarca;
-      $scope.customer_company.provincia = $scope.town_tree[$scope.data.altres_dades.town].provincia;
-      $scope.customer_company.ambit_actuacio = ($scope.data.altres_dades.personal_entitat == 'personal') ? 'Particular' : $scope.data.altres_dades.area;
-      $scope.customer_company.forma_juridica = ($scope.data.altres_dades.personal_entitat == 'personal') ? 'Particular' : $scope.data.altres_dades.structure;
-      $scope.customer_company.via_coneixement = $scope.data.conegut;
-      $scope.customer_company.valid_id = 1;
-      $scope.customer_company.create_time = date;
-      $scope.customer_company.create_by = 2;
-      $scope.customer_company.change_time = date;
-      $scope.customer_company.change_by = 2;
-      $scope.customer_company.$save(function(data){}, function(error){
-        $scope.error = error;
-      });
-    });
+    $scope.customer_company.customer_id = customer_id;
+    $scope.customer_company.name = name;
+    $scope.customer_company.CIF = $scope.data.altres_dades.dni_nif;
+    $scope.customer_company.city = $scope.data.altres_dades.town;
+    $scope.customer_company.comarca = $scope.town_tree[$scope.data.altres_dades.town].comarca;
+    $scope.customer_company.provincia = $scope.town_tree[$scope.data.altres_dades.town].provincia;
+    $scope.customer_company.ambit_actuacio = ($scope.data.altres_dades.personal_entitat == 'personal') ? 'Particular' : $scope.data.altres_dades.area;
+    $scope.customer_company.forma_juridica = ($scope.data.altres_dades.personal_entitat == 'personal') ? 'Particular' : $scope.data.altres_dades.structure;
+    $scope.customer_company.via_coneixement = $scope.data.conegut;
+    $scope.customer_company.valid_id = 1;
+    $scope.customer_company.create_time = date;
+    $scope.customer_company.create_by = 2;
+    $scope.customer_company.change_time = date;
+    $scope.customer_company.change_by = 2;
 
     //Customer user
     var login = $scope.data.altres_dades.email;
-    $scope.customer_user.$get({login: login}, function(data){
-      console.log('success');
-    }, function(error){
-      console.log('error');
-      $scope.customer_user.id = 0;
-      $scope.customer_user.login = login;
-      $scope.customer_user.email = $scope.data.altres_dades.email;
-      $scope.customer_user.customer_id = $scope.data.altres_dades.dni_nif + ' - ' + $scope.data.altres_dades.town;
-      $scope.customer_user.pw = null;
-      $scope.customer_user.title = null;
-      $scope.customer_user.first_name = $scope.data.dades_personals.nom;
-      $scope.customer_user.last_name = $scope.data.dades_personals.cognom;
-      $scope.customer_user.phone = $scope.data.altres_dades.tel;
-      $scope.customer_user.mobile = null;
-      $scope.customer_user.email_ext00 = '-';
-      $scope.customer_user.email_ext01 = '-';
-      $scope.customer_user.comments = null;
-      $scope.customer_user.valid_id = 1;
-      $scope.customer_user.create_time = date;
-      $scope.customer_user.create_by = 2;
-      $scope.customer_user.change_time = date;
-      $scope.customer_user.change_by = 2;
-      $scope.customer_user.$save(function(data){}, function(error){
-        $scope.error = error;
-      });
-    });
+
+    $scope.customer_user.id = 0;
+    $scope.customer_user.login = login;
+    $scope.customer_user.email = $scope.data.altres_dades.email;
+    $scope.customer_user.customer_id = $scope.data.altres_dades.dni_nif + ' - ' + $scope.data.altres_dades.town;
+    $scope.customer_user.pw = null;
+    $scope.customer_user.title = null;
+    $scope.customer_user.first_name = $scope.data.dades_personals.nom;
+    $scope.customer_user.last_name = $scope.data.dades_personals.cognom;
+    $scope.customer_user.phone = $scope.data.altres_dades.tel;
+    $scope.customer_user.mobile = null;
+    $scope.customer_user.email_ext00 = '-';
+    $scope.customer_user.email_ext01 = '-';
+    $scope.customer_user.comments = null;
+    $scope.customer_user.valid_id = 1;
+    $scope.customer_user.create_time = date;
+    $scope.customer_user.create_by = 2;
+    $scope.customer_user.change_time = date;
+    $scope.customer_user.change_by = 2;
 
     //Ticket
     var tipus = ($scope.data.tipus == 'puntual') ? 1 : 2;
     $scope.ticket.Ticket = {
       'CustomerUser' : $scope.data.altres_dades.email,
       'Priority' : '3 normal',
-      'QueueID' : 2,
+      'QueueID' : 1,
       'State' : 'new',
       'Title' : wordsTruncate($scope.data.consulta, 10),
       'TypeID' : tipus
@@ -179,7 +164,29 @@ myApp.controller("FormCtrl", function($http, $scope, Towns, Structures, Hows, Ar
       'ContentType' : 'text/plain; charset=utf8',
       'Subject' : wordsTruncate($scope.data.consulta, 10)
     };
-    $scope.ticket.$save();
+
+    $scope.customer_company.$get({customer_id: customer_id}, function(data){ console.log('customer company found');
+      $scope.customer_user.$get({login: login}, function(data){ console.log('customer user found');
+      $scope.ticket.$save(function(data){console.log('ticket created');}, function(error){console.log('error on ticket creation'); $scope.error = error;});
+      }, function(error){ console.log('customer user not found');
+        $scope.customer_user.$save(function(data){ console.log('customer user created');
+        $scope.ticket.$save(function(data){console.log('ticket created');}, function(error){console.log('error on ticket creation'); $scope.error = error;});
+        }, function(error){ console.log('error on customer user creation'); $scope.error = error;
+        });
+      });
+    }, function(error){ console.log('customer company not found');
+      $scope.customer_company.$save(function(data){ console.log('customer company created');
+        $scope.customer_user.$get({login: login}, function(data){ console.log('customer user found');
+        $scope.ticket.$save(function(data){console.log('ticket created');}, function(error){console.log('error on ticket creation'); $scope.error = error;});
+        }, function(error){ console.log('customer user not found');
+          $scope.customer_user.$save(function(data){ console.log('customer user created');
+          $scope.ticket.$save(function(data){console.log('ticket created');}, function(error){console.log('error on ticket creation'); $scope.error = error;});
+          }, function(error){ console.log('error on customer user creation'); $scope.error = error;
+          });
+        });
+      }, function(error){ console.log('error on customer company creation'); $scope.error = error;
+      });
+    });
 
     $scope.step = 0;
     $scope.step_id = 'enviat';
