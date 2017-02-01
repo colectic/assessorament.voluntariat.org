@@ -248,21 +248,22 @@
                 <fieldset class="form-group" ng-show="data.altres_dades.personal_entitat=='personal'">
                   <legend>Altres dades personals</legend>
                   <div class="row">
-                    <div class="form-group form-inline col-xs-6">
+                    <div class="form-group col-xs-6">
                       <label for="dni">DNI</label>
                       <input type="text" class="form-control" id="dni" ng-model="data.altres_dades.dni_nif" ng-required="data.altres_dades.personal_entitat=='personal'">
+                      <small class="form-text text-muted">Format: 00000000X</small>
                     </div>
-                    <div class="form-group form-inline col-xs-6">
+                    <div class="form-group col-xs-6">
                         <label for="email">Correu electrònic</label>
                         <input type="email" class="form-control" id="email" ng-model="data.altres_dades.email" ng-required="data.altres_dades.personal_entitat=='personal'">
                     </div>
                   </div>
                   <div class="row">
-                    <div class="form-group form-inline col-xs-6">
+                    <div class="form-group col-xs-6">
                         <label for="tel">Telèfon</label>
                         <input type="tel" class="form-control" id="tel" ng-model="data.altres_dades.tel" ng-required="data.altres_dades.personal_entitat=='personal'">
                     </div>
-                    <div class="form-group form-inline col-xs-6">
+                    <div class="form-group col-xs-6">
                       <label for="town">Població</label>
                       <input id="town" placeholder="Comença a escriure ..." type="text" ng-model="data.altres_dades.town" typeahead-editable="false" uib-typeahead="town for town in towns | filter:$viewValue | limitTo:8" class="form-control" typeahead-min-length="0" typeahead-no-results="noResults" ng-required="data.altres_dades.personal_entitat=='personal'">
                       <span ng-if="noResults" uib-dropdown uib-dropdown-toggle auto-close="disabled" is-open="true">
@@ -276,33 +277,34 @@
                 <fieldset class="form-group" ng-show="data.altres_dades.personal_entitat=='entitat'">
                   <legend>Dades de l'entitat</legend>
                   <div class="row">
-                    <div class="form-group form-inline col-xs-6">
+                    <div class="form-group col-xs-6">
                       <label for="nom_entitat">Nom de l'entitat</label>
                       <input type="text" class="form-control" id="nom_entitat" ng-model="data.altres_dades.nom_entitat" ng-required="data.altres_dades.personal_entitat=='entitat'">
                     </div>
-                    <div class="form-group form-inline col-xs-6">
+                    <div class="form-group col-xs-6">
                       <label for="dni">NIF de l'entitat</label>
                       <input type="text" class="form-control" id="dni" ng-model="data.altres_dades.dni_nif" ng-required="data.altres_dades.personal_entitat=='entitat'">
+                      <small class="form-text text-muted">Format: G00000000</small>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="form-group form-inline col-xs-6">
+                    <div class="form-group col-xs-6">
                         <label for="email">Correu electrònic</label>
                         <input type="email" class="form-control" id="email" ng-model="data.altres_dades.email" ng-required="data.altres_dades.personal_entitat=='entitat'">
                     </div>
-                    <div class="form-group form-inline col-xs-6">
+                    <div class="form-group col-xs-6">
                         <label for="tel">Telèfon</label>
                         <input type="tel" class="form-control" id="tel" ng-model="data.altres_dades.tel" ng-required="data.altres_dades.personal_entitat=='entitat'">
                     </div>
                   </div>
                   <div class="row">
-                    <div class="form-group form-inline col-xs-6">
+                    <div class="form-group col-xs-6">
                       <label for="structure">Forma jurídica de l'entitat</label>
                       <select id="structure" ng-model="data.altres_dades.structure" class="form-control" ng-required="data.altres_dades.personal_entitat=='entitat'">
                         <option ng-repeat="structure in structures" ng-value="structure">{{structure}}</option>
                       </select>
                     </div>
-                    <div class="form-group form-inline col-xs-6">
+                    <div class="form-group col-xs-6">
                       <label for="area">Àmbit d'actuació de l'entitat</label>
                       <select id="area" ng-model="data.altres_dades.area" class="form-control" ng-required="data.altres_dades.personal_entitat=='entitat'">
                         <option ng-repeat="area in areas" ng-value="area">{{area}}</option>
@@ -310,7 +312,7 @@
                     </div>
                   </div>
                   <div class="row">
-                    <div class="form-group form-inline col-xs-6">
+                    <div class="form-group col-xs-6">
                       <label for="town">Població de l'entitat</label>
                       <input id="town" placeholder="Comença a escriure ..." type="text" ng-model="data.altres_dades.town" typeahead-editable="false" uib-typeahead="town for town in towns | filter:$viewValue | limitTo:8" class="form-control" typeahead-min-length="0" typeahead-no-results="noResults" ng-required="data.altres_dades.personal_entitat=='entitat'">
                       <span ng-if="noResults" uib-dropdown uib-dropdown-toggle auto-close="disabled" is-open="true">
@@ -319,7 +321,7 @@
                         </ul>
                       </span>
                     </div>
-                    <div class="form-group form-inline col-xs-6">
+                    <div class="form-group col-xs-6">
                       <p>&nbsp;</p>
                     </div>
                   </div>
