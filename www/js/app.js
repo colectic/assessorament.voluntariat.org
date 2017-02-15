@@ -151,6 +151,7 @@ myApp.controller("FormCtrl", function($http, $scope, Towns, Structures, Hows, Ar
 
     //Ticket
     var tipus = ($scope.data.tipus == 'puntual') ? 1 : 2;
+    var body = ($scope.data.tipus == 'puntual') ? $scope.data.consulta : "Acompanyament: "+$scope.data.tipus_acompanyament+"\n\n"+$scope.data.consulta;
     $scope.ticket.Ticket = {
       'CustomerUser' : $scope.data.altres_dades.email,
       'Priority' : '3 normal',
@@ -160,7 +161,7 @@ myApp.controller("FormCtrl", function($http, $scope, Towns, Structures, Hows, Ar
       'TypeID' : tipus
     };
     $scope.ticket.Article = {
-      'Body' : $scope.data.consulta,
+      'Body' : body,
       'ContentType' : 'text/plain; charset=utf8',
       'Subject' : wordsTruncate($scope.data.consulta, 10)
     };
