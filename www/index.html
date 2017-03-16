@@ -68,170 +68,37 @@
         <div class="col-md-10 col-sm-12">
           <div ng-controller="FormCtrl">
 
-            <!-- INICI -->
-            <div id="tipus" ng-show="step_id=='tipus'">
-              <h1 class="page-header">Formularis d'assessorament i acompanyament</h1>
-              <p>Si vols aconseguir més impacte social, ASSESSORA'T! La Direcció General d'Acció Cívica i Comunitària posa a la teva disposició un conjunt de serveis d'assessorament i acompanyament gratuïts. Pots fer la teva sol·licitud a través del següent formulari:</p>
-              <div class="row">
-                <div class="col-md-6 col-sm-12">
-                  <p>
-                    <button type="button" class="btn btn-primary btn-block" ng-click="setType('puntual')">
-                      <h2>Assessorament</h2>
-                    </button>
-                  </p>
-                  <a href="http://www.voluntariat.org/Suport-i-serveis/Serveis-dassessorament-a-les-entitats/serveis-assessorament" class="list-group-item" target="_blank">
-                    <h4 class="text-center">Consulta en quines temàtiques t'assessorem</h4>
-                    <ul>
-                      <li>Coneixes quins són els serveis?</li>
-                      <li>Quines són les prestacions que et donen?</li>
-                      <li>Quines són les temàtiques sobre les quals ens pots consultar?</li>
-                      <li>Quin és el temps de  resposta?</li>
-                    </ul>
-                  </a>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                  <p>
-                    <button type="button" class="btn btn-primary btn-block" ng-click="setType('acompanyament')">
-                      <h2>Acompanyament</h2>
-                    </button>
-                  </p>
-                  <a href="http://www.voluntariat.org/Suport-i-serveis/Serveis-dassessorament-a-les-entitats/servei-acompanyament-integral" class="list-group-item" target="_blank">
-                    <h4 class="text-center">Consulta en quines temàtiques t'acompanyem</h4>
-                    <ul>
-                      <li>En què consisteix l’acompanyament?</li>
-                      <li>Coneixes quins són els serveis?</li>
-                      <li>Quines són les prestacions que et donen?</li>
-                      <li>Quines són les temàtiques sobre les quals ens pots consultar?</li>
-                      <li>Quines són les condicions d’ús d’aquest servei?</li>
-                    </ul>
-                  </a>
-                </div>
-              </div>
-              <p>&nbsp;</p>
-              <div class="panel panel-default">
-                <!--
-                <div class="panel-heading">
-                  <a href="http://xarxanet.org" target="_blank"><img src="img/logo-xarxanet.svg" /></a>
-                </div>
-                -->
-                <div class="panel-body">
-                  Abans de fer una consulta us recomanem que reviseu els recursos existents ja elaborats. <a href="http://xarxanet.org/recursos" target="_blank">Consulta'ls aquí.</a>
-                </div>
-              </div>
+            <!-- MISSATGES -->
+            <div class="alert alert-warning" role="alert" ng-show="error">
+              <p>S'ha produit un error. Si us plau posa't en contacte amb serveis@voluntariat.org</p>
+              <p>{{error.message}}</p>
+              <button type="button" class="btn btn-warning" ng-click="restart()">Tornar a l'inici</button>
             </div>
-
-            <!-- TIPUS ACOMPANYAMENT -->
-            <div id="tipus_acompanyament" ng-show="step_id=='tipus_acompanyament'">
-              <h1 class="page-header">Pas {{step}}: Tipus d'acompanyament</h1>
-              <p>Identifiqueu quin tipus de suport necessiteu</p>
-              <form ng-submit="advance()">
-                <div class="row">
-                  <div class="col-md-6 col-sm-12">
-                    <div class="form-check">
-                      <label class="form-check-label">
-                        <input class="form-check-input" ng-model="data.tipus_acompanyament" type="radio" value="A la posada en marxa de l'entitat" ng-required="!data.tipus_acompanyament" data-toggle="tooltip" data-placement="right">
-                        A la posada en marxa de l'entitat
-                      </label>
-                    </div>
-                    <div class="form-check">
-                      <label class="form-check-label">
-                        <input class="form-check-input" ng-model="data.tipus_acompanyament" type="radio" value="A la millora dels projectes d'intervenció" ng-required="!data.tipus_acompanyament" data-toggle="tooltip" data-placement="right">
-                        A la millora dels projectes d'intervenció
-                      </label>
-                    </div>
-                    <div class="form-check">
-                      <label class="form-check-label">
-                        <input class="form-check-input" ng-model="data.tipus_acompanyament" type="radio" value="A la millora de la gestió del voluntariat" ng-required="!data.tipus_acompanyament" data-toggle="tooltip" data-placement="right">
-                        A la millora de la gestió del voluntariat
-                      </label>
-                    </div>
-                    <div class="form-check">
-                      <label class="form-check-label">
-                        <input class="form-check-input" ng-model="data.tipus_acompanyament" type="radio" value="A la millora de la comunicació" ng-required="!data.tipus_acompanyament" data-toggle="tooltip" data-placement="right">
-                        A la millora de la comunicació
-                      </label>
-                    </div>
-                    <div class="form-check">
-                      <label class="form-check-label">
-                        <input class="form-check-input" ng-model="data.tipus_acompanyament" type="radio" value="A la millora de la participació" ng-required="!data.tipus_acompanyament" data-toggle="tooltip" data-placement="right">
-                        A la millora de la participació
-                      </label>
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-sm-12">
-                    <div class="form-check">
-                      <label class="form-check-label">
-                        <input class="form-check-input" ng-model="data.tipus_acompanyament" type="radio" value="A la millora de la captació de fons" ng-required="!data.tipus_acompanyament" data-toggle="tooltip" data-placement="right">
-                        A la millora de la captació de fons
-                      </label>
-                    </div>
-                    <div class="form-check">
-                      <label class="form-check-label">
-                        <input class="form-check-input" ng-model="data.tipus_acompanyament" type="radio" value="A la millora de la planificació estratègica" ng-required="!data.tipus_acompanyament" data-toggle="tooltip" data-placement="right">
-                        A la millora de la planificació estratègica
-                      </label>
-                    </div>
-                    <div class="form-check">
-                      <label class="form-check-label">
-                        <input class="form-check-input" ng-model="data.tipus_acompanyament" type="radio" value="A la millora de les competències de l’equip" ng-required="!data.tipus_acompanyament" data-toggle="tooltip" data-placement="right">
-                        A la millora de les competències de l’equip
-                      </label>
-                    </div>
-                    <div class="form-check">
-                      <label class="form-check-label">
-                        <input class="form-check-input" ng-model="data.tipus_acompanyament" type="radio" value="Suport per la sostenibilitat de l’entitat" ng-required="!data.tipus_acompanyament" data-toggle="tooltip" data-placement="right">
-                        Suport per la sostenibilitat de l’entitat
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <p>&nbsp;</p>
-                <button type="button" class="btn btn-primary" ng-click="goBack()"><< Endarrere</button>
-                <button type="submit" class="btn btn-success" >Endavant >></button>
-              </form>
-            </div>
-
-            <!-- CONSULTA -->
-            <div id="consulta" ng-show="step_id=='consulta'">
-              <h1 class="page-header">Pas {{step}}: Consulta</h1>
-              <form ng-submit="advance()">
-                <div class="form-group">
-                  <label for="consultaTextarea">En què vols que t’ajudem?  Descriu amb detall la teva consulta</label>
-                  <textarea class="form-control" id="consultaTextarea" rows="7" ng-model="data.consulta" required></textarea>
-                </div>
-                <p>&nbsp;</p>
-                <button type="button" class="btn btn-primary" ng-click="goBack()"><< Endarrere</button>
-                <button type="submit" class="btn btn-success" >Endavant >></button>
-              </form>
+            <div class="alert alert-success" role="alert" ng-show="enviat">
+              <p>El formulari s'ha registrat correctament.</p>
+              <button type="button" class="btn btn-success" ng-click="restart()">Tornar a l'inici</button>
             </div>
 
             <!-- DADES PERSONALS -->
-            <div id="dades_personals" ng-show="step_id=='dades_personals'">
-              <h1 class="page-header">Pas {{step}}: Dades personals</h1>
-              <p>Proporciona'ns les teves dades per tal que ens dirigim a tu correctament</p>
-              <form ng-submit="advance()">
-                <div class="row">
-                  <div class="col-xs-6">
-                    <label for="nom">Nom</label>
-                      <input type="text" class="form-control" id="nom" ng-model="data.dades_personals.nom" required>
-                  </div>
-                  <div class="col-xs-6">
-                    <label for="cognom">Cognom</label>
-                      <input type="text" class="form-control" id="cognom" ng-model="data.dades_personals.cognom" required>
-                  </div>
-                </div>
-                <p>&nbsp;</p>
-                <button type="button" class="btn btn-primary" ng-click="goBack()"><< Endarrere</button>
-                <button type="submit" class="btn btn-success" >Endavant >></button>
-              </form>
-            </div>
-
-            <!-- ALTRES DADES -->
-            <div id="altres_dades" ng-show="step_id=='altres_dades'">
-              <h1 class="page-header" >Pas {{step}}: Altres dades</h1>
-              <form ng-submit="advance()">
+            <div id="dades_personals">
+              <h1 class="page-header">Registre d'una nova entitat/particular</h1>
+              <form ng-submit="send()">
                 <fieldset class="form-group">
-                  <legend>Realitzes la consulta</legend>
+                  <legend>Dades personals</legend>
+                  <div class="row">
+                    <div class="col-xs-6">
+                      <label for="nom">Nom</label>
+                        <input type="text" class="form-control" id="nom" ng-model="data.dades_personals.nom" required>
+                    </div>
+                    <div class="col-xs-6">
+                      <label for="cognom">Cognom</label>
+                        <input type="text" class="form-control" id="cognom" ng-model="data.dades_personals.cognom" required>
+                    </div>
+                  </div>
+                </fieldset>
+
+                <fieldset class="form-group">
+                  <legend>Com es realitza la consulta</legend>
                   <div class="form-check">
                     <label class="form-check-label">
                       <input type="radio" class="form-check-input" ng-model="data.altres_dades.personal_entitat" value="personal" ng-required="!data.altres_dades.personal_entitat">
@@ -328,17 +195,7 @@
                     </div>
                   </div>
                 </fieldset>
-                <button type="button" class="btn btn-primary" ng-click="goBack()"><< Endarrere</button>
-                <button type="submit" class="btn btn-success" >Endavant >></button>
-              </form>
-            </div>
-
-            <!-- FINAL -->
-            <div id="final" ng-show="step_id=='final'">
-              <h1 class="page-header">Pas {{step}}: Final</h1>
-              <p> </p>
-              <form ng-submit="send()">
-                <legend>Com ens has conegut?</legend>
+                <legend>Com ens han conegut?</legend>
                 <label for="how">Ens vols ajudar a millorar? Explica'ns com ens has conegut</label>
                 <select id="how" ng-model="data.conegut" class="form-control" required>
                   <option value="">- Selecciona una opció -</option>
@@ -363,47 +220,12 @@
                   </label>
                 </div>
                 <p>&nbsp;</p>
-                <button type="button" class="btn btn-primary" ng-click="goBack()"><< Endarrere</button>
                 <button type="submit" class="btn btn-success">Finalitza</button>
               </form>
             </div>
-
-            <!-- ENVIAT -->
-            <div id="compromis" ng-show="step_id=='enviat'">
-              <h1 class="page-header">Formulari registrat</h1>
-              <div class="alert alert-warning" role="alert" ng-show="error">
-                <p>S'ha produit un error. Si us plau posa't en contacte amb serveis@voluntariat.org</p>
-                <p>{{error.message}}</p></div>
-              <div class="alert alert-success" role="alert" ng-hide="error">El formulari s'ha registrat correctament. Moltes gràcies per contactar amb nosaltres, en 72 hores com a màxim ens posarem en contacte amb tu.</div>
-              <p>&nbsp;</p>
-              <button type="button" class="btn btn-warning" ng-click="restart()">Tornar a l'inici</button>
-            </div>
-
           </div>
         </div>
         <div class="col-md-1 col-sm-12">&nbsp;</div>
-        <!--
-        <div class="col-md-4 col-sm-12">
-          <div ng-controller="RssCtrl">
-            <h1 class="page-header"><a href="http://xarxanet.org" target="_blank"><img src="img/logo-xarxanet.svg" /></a></h1>
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h3 class="panel-title">Recursos de Xarxanet.org</h3>
-              </div>
-              <div class="panel-body">
-                <div class="list-group">
-                  <a ng-repeat="feed in feeds" ng-href="{{feed.link}}" class="list-group-item" target="_blank">
-                    <h4 class="list-group-item-heading">{{feed.title}}</h4>
-                    <p>{{feed.description}}</p>
-                    <p class="list-group-item-text small">{{feed.author}} - {{feed.pubDate}}</p>
-                  </a>
-                </div>
-                <a href="http://xarxanet.org/recursos" target="_blank">Mostra tots els recursos</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        -->
       </div>
     </div>
     <div class="footer">
