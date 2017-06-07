@@ -168,24 +168,24 @@ myApp.controller("FormCtrl", function($http, $scope, Towns, Structures, Hows, Ar
 
     $scope.customer_company.$get({customer_id: customer_id}, function(data){ console.log('customer company found');
       $scope.customer_user.$get({login: login}, function(data){ console.log('customer user found');
-      $scope.ticket.$save(function(data){console.log('ticket created');}, function(error){console.log('error on ticket creation'); $scope.error = error;});
+      $scope.ticket.$save(function(data){console.log('ticket created');}, function(error){console.log('error on ticket creation'); $scope.error = 'error on ticket creation - '.error;});
       }, function(error){ console.log('customer user not found');
         $scope.customer_user.$save(function(data){ console.log('customer user created');
-        $scope.ticket.$save(function(data){console.log('ticket created');}, function(error){console.log('error on ticket creation'); $scope.error = error;});
-        }, function(error){ console.log('error on customer user creation'); $scope.error = error;
+        $scope.ticket.$save(function(data){console.log('ticket created');}, function(error){console.log('error on ticket creation'); $scope.error = 'error on ticket creation - '.error;});
+      }, function(error){ console.log('error on customer user creation'); $scope.error = 'error on customer user creation - '.error;
         });
       });
     }, function(error){ console.log('customer company not found');
       $scope.customer_company.$save(function(data){ console.log('customer company created');
         $scope.customer_user.$get({login: login}, function(data){ console.log('customer user found');
-        $scope.ticket.$save(function(data){console.log('ticket created');}, function(error){console.log('error on ticket creation'); $scope.error = error;});
+        $scope.ticket.$save(function(data){console.log('ticket created');}, function(error){console.log('error on ticket creation'); $scope.error = 'error on ticket creation - '.error;});
         }, function(error){ console.log('customer user not found');
           $scope.customer_user.$save(function(data){ console.log('customer user created');
-          $scope.ticket.$save(function(data){console.log('ticket created');}, function(error){console.log('error on ticket creation'); $scope.error = error;});
-          }, function(error){ console.log('error on customer user creation'); $scope.error = error;
+          $scope.ticket.$save(function(data){console.log('ticket created');}, function(error){console.log('error on ticket creation'); $scope.error = 'error on ticket creation - '.error;});
+        }, function(error){ console.log('error on customer user creation'); $scope.error = 'error on customer user creation - '.error;
           });
         });
-      }, function(error){ console.log('error on customer company creation'); $scope.error = error;
+      }, function(error){ console.log('error on customer company creation'); $scope.error = 'error on customer company creation - '.error;
       });
     });
 
