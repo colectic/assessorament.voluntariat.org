@@ -31,6 +31,9 @@ myApp.factory("CustomerCompany", function($resource){
 myApp.factory("CustomerUser", function($resource){
     return $resource('http://infyotrs.xarxanet.org/public/api/v1/customer_users/:login', {login:''});
 });
+myApp.factory("InfyTicket", function($resource){
+    return $resource('http://infyotrs.xarxanet.org/public/api/v1/tickets');
+});
 myApp.factory("Ticket", function($resource){
     //TODO!!!!! Treure usuari i contrassenya
     return $resource('http://otrs.xarxanet.org/Webservice/Ticket?UserLogin=xxx&Password=xxx');
@@ -52,6 +55,7 @@ myApp.controller("FormCtrl", function($http, $scope, Towns, Structures, Hows, Ar
   $scope.customer_company = new CustomerCompany();
   $scope.customer_user = new CustomerUser();
   $scope.ticket = new Ticket();
+  $scope.infyticket = new InfyTicket();
 
   // Init data
   $scope.data = {};
@@ -165,13 +169,20 @@ myApp.controller("FormCtrl", function($http, $scope, Towns, Structures, Hows, Ar
       'ContentType' : 'text/plain; charset=utf8',
       'Subject' : wordsTruncate($scope.data.consulta, 10)
     };
+    $scope.infyticket.customer_user = login;
+    $scope.infyticket.customer_id = $scope.data.altres_dades.dni_nif + ' - ' + $scope.data.altres_dades.town;
+    $scope.infyticket.type = tipus;
+    $scope.infyticket.subject = wordsTruncate($scope.data.consulta, 10);
+    $scope.infyticket.body = body;
 
     $scope.customer_company.$get({customer_id: customer_id}, function(data){ console.log('customer company found');
       $scope.customer_user.$get({login: login}, function(data){ console.log('customer user found');
       $scope.ticket.$save(function(data){console.log('ticket created');}, function(error){console.log('error on ticket creation'); $scope.error = 'error on ticket creation - '.error;});
+      $scope.infyticket.$save(function(data){console.log('infyticket created');}, function(error){console.log('error on infyticket creation'); $scope.error = 'error on infyticket creation - '.error;});
       }, function(error){ console.log('customer user not found');
         $scope.customer_user.$save(function(data){ console.log('customer user created');
         $scope.ticket.$save(function(data){console.log('ticket created');}, function(error){console.log('error on ticket creation'); $scope.error = 'error on ticket creation - '.error;});
+        $scope.infyticket.$save(function(data){console.log('infyticket created');}, function(error){console.log('error on infyticket creation'); $scope.error = 'error on infyticket creation - '.error;});
       }, function(error){ console.log('error on customer user creation'); $scope.error = 'error on customer user creation - '.error;
         });
       });
@@ -179,9 +190,11 @@ myApp.controller("FormCtrl", function($http, $scope, Towns, Structures, Hows, Ar
       $scope.customer_company.$save(function(data){ console.log('customer company created');
         $scope.customer_user.$get({login: login}, function(data){ console.log('customer user found');
         $scope.ticket.$save(function(data){console.log('ticket created');}, function(error){console.log('error on ticket creation'); $scope.error = 'error on ticket creation - '.error;});
+        $scope.infyticket.$save(function(data){console.log('infyticket created');}, function(error){console.log('error on infyticket creation'); $scope.error = 'error on infyticket creation - '.error;});
         }, function(error){ console.log('customer user not found');
           $scope.customer_user.$save(function(data){ console.log('customer user created');
           $scope.ticket.$save(function(data){console.log('ticket created');}, function(error){console.log('error on ticket creation'); $scope.error = 'error on ticket creation - '.error;});
+          $scope.infyticket.$save(function(data){console.log('infyticket created');}, function(error){console.log('error on infyticket creation'); $scope.error = 'error on infyticket creation - '.error;});
         }, function(error){ console.log('error on customer user creation'); $scope.error = 'error on customer user creation - '.error;
           });
         });
