@@ -50,7 +50,7 @@ myApp.controller("RssCtrl", function($scope, $http){
 });
 
 // setup controller and pass data source
-myApp.controller("FormCtrl", function($http, $scope, Towns, Structures, Hows, Areas, CustomerCompany, CustomerUser, Ticket){
+myApp.controller("FormCtrl", function($http, $scope, Towns, Structures, Hows, Areas, CustomerCompany, CustomerUser, Ticket, InfyTicket){
 
   $scope.customer_company = new CustomerCompany();
   $scope.customer_user = new CustomerUser();
