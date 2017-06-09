@@ -107,6 +107,7 @@ myApp.controller("FormCtrl", function($http, $scope, Towns, Structures, Hows, Ar
   $scope.restart = function() {
 	  $scope.step_id = 'tipus';
 	  $scope.data = {};
+    $scope.error = null;
   }
 
   $scope.send = function() {
