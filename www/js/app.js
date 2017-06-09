@@ -169,8 +169,8 @@ myApp.controller("FormCtrl", function($http, $scope, Towns, Structures, Hows, Ar
       'ContentType' : 'text/plain; charset=utf8',
       'Subject' : wordsTruncate($scope.data.consulta, 10)
     };
-    $scope.infyticket.customer_user = login;
-    $scope.infyticket.customer_id = $scope.data.altres_dades.dni_nif + ' - ' + $scope.data.altres_dades.town;
+    $scope.infyticket.costumer_user = login;
+    $scope.infyticket.costumer_id = $scope.data.altres_dades.dni_nif + ' - ' + $scope.data.altres_dades.town;
     $scope.infyticket.type = tipus;
     $scope.infyticket.subject = wordsTruncate($scope.data.consulta, 10);
     $scope.infyticket.body = body;
