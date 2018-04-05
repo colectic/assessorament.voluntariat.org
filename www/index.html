@@ -300,13 +300,13 @@
                   <legend>Dades de l'entitat</legend>
                   <div class="row">
                     <div class="form-group col-xs-6">
-                      <label for="nom_entitat">Nom de l'entitat</label>
-                      <input type="text" class="form-control" id="nom_entitat" ng-model="data.altres_dades.nom_entitat" ng-required="data.altres_dades.personal_entitat=='entitat'">
+                      <label for="dni">NIF de l'entitat</label>
+                      <input type="text" class="form-control" id="dni" ng-change="populate()" ng-model="data.altres_dades.dni_nif" ng-required="data.altres_dades.personal_entitat=='entitat'">
+                      <small class="form-text text-muted">Format: G00000000</small>
                     </div>
                     <div class="form-group col-xs-6">
-                      <label for="dni">NIF de l'entitat</label>
-                      <input type="text" class="form-control" id="dni" ng-model="data.altres_dades.dni_nif" ng-required="data.altres_dades.personal_entitat=='entitat'">
-                      <small class="form-text text-muted">Format: G00000000</small>
+                      <label for="nom_entitat">Nom de l'entitat</label>
+                      <input type="text" class="form-control" id="nom_entitat" ng-model="data.altres_dades.nom_entitat" ng-required="data.altres_dades.personal_entitat=='entitat'">
                     </div>
                   </div>
                   <div class="row">
