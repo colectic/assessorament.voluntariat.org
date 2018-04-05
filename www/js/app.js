@@ -26,17 +26,17 @@ myApp.factory("Hows", function(){
 
 // define factories for REST elements
 myApp.factory("CustomerCompany", function($resource){
-  return $resource('http://infyotrs.xarxanet.org/public/api/v1/customer_companies/:customer_id', {customer_id:''});
+  return $resource('http://infyotrs.voluntariat.org/public/api/v1/customer_companies/:customer_id', {customer_id:''});
 });
 myApp.factory("CustomerUser", function($resource){
-    return $resource('http://infyotrs.xarxanet.org/public/api/v1/customer_users/:login', {login:''});
+    return $resource('http://infyotrs.voluntariat.org/public/api/v1/customer_users/:login', {login:''});
 });
 myApp.factory("InfyTicket", function($resource){
-    return $resource('http://infyotrs.xarxanet.org/public/api/v1/tickets');
+    return $resource('http://infyotrs.voluntariat.org/public/api/v1/tickets');
 });
 myApp.factory("Ticket", function($resource){
     //TODO!!!!! Treure usuari i contrassenya
-    return $resource('http://otrs.xarxanet.org/Webservice/Ticket?UserLogin=xxx&Password=xxx');
+    return $resource('http://otrs.voluntariat.org/Webservice/Ticket?UserLogin=xxx&Password=xxx');
 });
 
 myApp.controller("RssCtrl", function($scope, $http){
