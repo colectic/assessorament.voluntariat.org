@@ -298,6 +298,22 @@
                 </fieldset>
                 <fieldset class="form-group" ng-show="data.altres_dades.personal_entitat=='entitat'">
                   <legend>Dades de l'entitat</legend>
+                  <div class="alert alert-warning" role="alert" ng-show="data.altres_dades.dni_nif.length>0 && !company_found && data.altres_dades.dni_nif.length<9">
+                    <span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span>
+                    Introdueix el NIF de la teva entitat per comprovar si està registrada.
+                  </div>
+                  <div class="alert alert-success" role="alert" ng-show="company_found">
+                    <span class="glyphicon glyphicon-ok"></span>
+                    El NIF introduit correspon a una entitat registrada. Per modificar-ne les dades escriviu a
+                  </div>
+                  <div class="alert alert-info" role="alert" ng-show="!company_found && data.altres_dades.dni_nif.length==9">
+                    <span class="glyphicon glyphicon-paperclip"></span>
+                    El NIF introduit no correspon a cap entitat registrada. Incorporeu-ne les dades.
+                  </div>
+                  <div class="alert alert-danger" role="alert" ng-show="!company_found && data.altres_dades.dni_nif.length>9">
+                    <span class="glyphicon glyphicon-remove"></span>
+                    El NIF introduit no és vàlid.
+                  </div>
                   <div class="row">
                     <div class="form-group col-xs-6">
                       <label for="dni">NIF de l'entitat</label>
@@ -306,30 +322,30 @@
                     </div>
                     <div class="form-group col-xs-6">
                       <label for="nom_entitat">Nom de l'entitat</label>
-                      <input type="text" class="form-control" id="nom_entitat" ng-model="data.altres_dades.nom_entitat" ng-required="data.altres_dades.personal_entitat=='entitat'">
+                      <input type="text" class="form-control" id="nom_entitat" ng-disabled="company_found || data.altres_dades.dni_nif.length>9" ng-model="data.altres_dades.nom_entitat" ng-required="data.altres_dades.personal_entitat=='entitat'">
                     </div>
                   </div>
                   <div class="row">
                     <div class="form-group col-xs-6">
                         <label for="email">Correu electrònic</label>
-                        <input type="email" class="form-control" id="email" ng-model="data.altres_dades.email" ng-required="data.altres_dades.personal_entitat=='entitat'">
+                        <input type="email" class="form-control" ng-disabled="data.altres_dades.dni_nif.length>9" id="email" ng-model="data.altres_dades.email" ng-required="data.altres_dades.personal_entitat=='entitat'">
                     </div>
                     <div class="form-group col-xs-6">
                         <label for="tel">Telèfon</label>
-                        <input type="tel" class="form-control" id="tel" ng-model="data.altres_dades.tel" ng-required="data.altres_dades.personal_entitat=='entitat'">
+                        <input type="tel" class="form-control" ng-disabled="data.altres_dades.dni_nif.length>9" id="tel" ng-model="data.altres_dades.tel" ng-required="data.altres_dades.personal_entitat=='entitat'">
                     </div>
                   </div>
                   <div class="row">
                     <div class="form-group col-xs-6">
                       <label for="structure">Forma jurídica de l'entitat</label>
-                      <select id="structure" ng-model="data.altres_dades.structure" class="form-control" ng-required="data.altres_dades.personal_entitat=='entitat'">
+                      <select id="structure" ng-disabled="company_found || data.altres_dades.dni_nif.length>9" ng-model="data.altres_dades.structure" class="form-control" ng-required="data.altres_dades.personal_entitat=='entitat'">
                         <option value="">- Selecciona una opció -</option>
                         <option ng-repeat="structure in structures" ng-value="structure">{{structure}}</option>
                       </select>
                     </div>
                     <div class="form-group col-xs-6">
                       <label for="area">Àmbit d'actuació de l'entitat</label>
-                      <select id="area" ng-model="data.altres_dades.area" class="form-control" ng-required="data.altres_dades.personal_entitat=='entitat'">
+                      <select id="area" ng-disabled="company_found || data.altres_dades.dni_nif.length>9" ng-model="data.altres_dades.area" class="form-control" ng-required="data.altres_dades.personal_entitat=='entitat'">
                         <option value="">- Selecciona una opció -</option>
                         <option ng-repeat="area in areas" ng-value="area">{{area}}</option>
                       </select>
@@ -338,7 +354,7 @@
                   <div class="row">
                     <div class="form-group col-xs-6">
                       <label for="town">Població de l'entitat</label>
-                      <input id="town" placeholder="Comença a escriure ..." type="text" ng-model="data.altres_dades.town" typeahead-editable="false" uib-typeahead="town for town in towns | filter:$viewValue | limitTo:8" class="form-control" typeahead-min-length="0" typeahead-no-results="noResults" ng-required="data.altres_dades.personal_entitat=='entitat'">
+                      <input id="town" ng-disabled="company_found || data.altres_dades.dni_nif.length>9" placeholder="Comença a escriure ..." type="text" ng-model="data.altres_dades.town" typeahead-editable="false" uib-typeahead="town for town in towns | filter:$viewValue | limitTo:8" class="form-control" typeahead-min-length="0" typeahead-no-results="noResults" ng-required="data.altres_dades.personal_entitat=='entitat'">
                       <span ng-if="noResults" uib-dropdown uib-dropdown-toggle auto-close="disabled" is-open="true">
                         <ul class="dropdown-menu" >
                           <li><a href>No hi ha resultats</a></li>
