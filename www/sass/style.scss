@@ -1,3 +1,4 @@
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
 /*** HEADER ***/
@@ -16,4 +17,27 @@
   border-top: 1px solid #ddd;
   padding: 15px 0px;
   margin-top: 30px;
+}
+
+/*** LOADING ANIMATION ****/
+.glyphicon-refresh-animate {
+    -animation: spin 1s infinite linear;
+    -ms-animation: spin 1s infinite linear;
+    -webkit-animation: spinw 1s infinite linear;
+    -moz-animation: spinm 1s infinite linear;
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+@-webkit-keyframes spinw {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes spinm {
+    from { -moz-transform: rotate(0deg);}
+    to { -moz-transform: rotate(360deg);}
 }

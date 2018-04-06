@@ -110,6 +110,32 @@ myApp.controller("FormCtrl", function($http, $scope, Towns, Structures, Hows, Ar
     $scope.error = null;
   }
 
+  $scope.company_found = false;
+  $scope.populate = function() {
+    if ($scope.data.altres_dades.dni_nif.length == 9) {
+        $scope.customer_company.$get({customer_id: $scope.data.altres_dades.dni_nif}, function(data){
+          console.log(data.data);
+          if (data.data[0]) {
+            console.log('customer company found');
+            $scope.company_found = true;
+            $scope.data.altres_dades.nom_entitat = data.data[0].name;
+            $scope.data.altres_dades.town = data.data[0].city;
+            $scope.data.altres_dades.area = data.data[0].ambit_actuacio;
+            $scope.data.altres_dades.structure = data.data[0].forma_juridica;
+          } else {
+            console.log('customer company not found');
+            $scope.company_found = false;
+          }
+        });
+    } else {
+        $scope.company_found = false;
+        $scope.data.altres_dades.nom_entitat = null;
+        $scope.data.altres_dades.town = null;
+        $scope.data.altres_dades.area = null;
+        $scope.data.altres_dades.structure = null;
+    }
+  }
+
   $scope.send = function() {
     var date =  moment(new Date()).format("YYYY-MM-DD HH:mm:ss");
 
