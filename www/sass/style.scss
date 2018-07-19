@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+$brand-primary: rgb(192, 0, 0);
+$font-family-sans-serif:  "Open Sans", sans-serif !default;
+
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
 /*** HEADER ***/
-.navbar-1 {border-bottom: solid 2px rgb(191, 47, 20); }
+.navbar-1 {
+  background-color: rgb(51, 51, 51);
+  h1 {
+    color: white;
+    margin: 10px 0 20px 10px;
+    float: left;
+    clear: both;
+  }
+}
 .navbar-2 {
     background-image: url(../img/header-texture.png);
     background-repeat: repeat-x;
@@ -10,7 +23,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
     background-image: url(../img/header-bg.png); height: 93px;
   }
 }
-.navbar-brand {padding-top: 10px}
+.navbar-brand {padding-top: 15px}
 
 /*** FOOTER ***/
 .footer {
